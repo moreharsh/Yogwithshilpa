@@ -198,6 +198,90 @@ li, a, button{
 }
 /* Join Us End */
 
+/* Let's Talk Strat*/
+.letstalk{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.letstalkleft{
+    width: 50%;
+    height: 90vh;
+}
+
+.letstalkleftcontent{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 40%;
+}
+
+.letstalk .letstalkleft .title h2 {
+    font-size: 36px;
+    position: relative;
+    color: #564e4e;
+}
+  
+.letstalk .letstalkleft .title h2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -80%;
+    width: 10%;
+    height: 1px;
+    background-color: #bababa;
+}
+
+.letstalk .letstalkleft .text{
+    position: relative;
+}
+.letstalk .letstalkleft .text p{
+    font-size: 22px;
+    width: 80%;
+    color: #564E4E;
+    margin-top: 15%;
+    line-height: 1.5;
+}
+
+.letstalkright{
+    width: 50%;
+    height: 80vh;
+    position: relative;
+}
+
+
+.letstalk .letstalkright .smallcircle {
+    position: absolute;
+    top: 25%;
+    left: 24%;
+}
+
+.letstalk .letstalkright .image {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    z-index: 1;
+}
+
+.letstalk .letstalkright .bigcircle {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+.letstalk .letstalkright .group-1{
+    position: absolute;
+    height: 90%;
+    right: 0;
+    z-index: -1;
+}
+/* Let's Talk End*/
+
 /* Footer Start */
 .footer {
     background: #000;
