@@ -49,7 +49,7 @@ li, a, button{
 }
 
 .nav__links li a:hover{
-    color: red;
+    color: #F39313;
 }
 
 .nav__social{
@@ -64,7 +64,7 @@ li, a, button{
 }
 
 .nav__social a:hover{
-    color: red;
+    color: #F39313;
 }
 /* Navbar End */
 
@@ -212,9 +212,10 @@ li, a, button{
 
 .swiper {
     width: 80%;
-    height: 50%;
+    height: 55%;
     position: absolute;
-    top: 40%;
+    top: 35%;
+    left: 10%;
 }
 
 .swiper-slide {
@@ -259,8 +260,17 @@ li, a, button{
     font-size: 14px;
 }
 
-.swiper-pagination-bullets{
-    bottom: -10%;
+.swiper-horizontal > .swiper-pagination-bullets{
+    bottom: -1%;
+    z-index: 1;
+}
+
+.swiper-pagination-bullet{
+    background-color: #F39313;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #F39313;
 }
 /* What our clients say End */
 

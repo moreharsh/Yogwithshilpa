@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* NavBar Start */
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url(../images/image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.nav__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5% 10%;
+}
+
+.logo{
+    cursor: pointer;
+    height: 100px;
+    width: 70px;
+}
+
+.nav__links{
+    list-style: none;
+    position: relative;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+    color: #fff;
+}
+
+.nav__links li a:hover{
+    color: #F39313;
+}
+
+.nav__links .nav__link-active a{
+    color: #F39313;
+}
+
+.nav__links .nav__link-active a::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 1px;
+    position: absolute;
+    background-color: #F39313;
+    left: 10%;
+    bottom: -10px;
+}
+
+.nav__social{
+    list-style: none;
+}
+
+.nav__social a{
+    font-size: 22px;
+    padding: 0 20px;
+    transition: all 0.3s ease 0s;
+    color: #fff;
+}
+
+.nav__social a:hover{
+    color: #F39313;
+}
+
+.bannertext{
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+}
+
+.bannerdescription{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    top: 50%;
+    left: 33%;
+}
+/* Navbar End */
+
+/* Join Us Start */
+.client{
+    width:100%;
+    height: 70vh;
+    position: relative;
+}
+
+.client .info{
+    position: absolute;
+    font-size: 36px;
+    font-weight: 400;
+    color: #2F2F2F;
+    left: 45%;
+    top: 15%;
+}
+
+.client .info::before{
+    content: "";
+    display: block;
+    width: 240px;
+    height: 1px;
+    position: absolute;
+    background-color: #BABABA;
+    left: -160%;
+    top: 50%;
+}
+
+.client .info::after{
+    content: "";
+    display: block;
+    width: 240px;
+    height: 1px;
+    position: absolute;
+    background-color: #BABABA;
+    left: 120%;
+    top: 50%;
+}
+
+.swiper {
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.swiper-slide {
+    background: none;
+}
+
+.swiper-slide h3{
+    font-size: 24px;
+    color: #2F2F2F;
+    position: absolute;
+    top: 40%;
+}
+
+.swiper-slide p{
+    font-size: 18px;
+    color: #2F2F2F;
+    line-height: 1.5;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+}
+
+.swiper-slide .user{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.swiper-slide .user img{
+    width: 100px;
+    position: absolute;
+    top: 0;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 10%;
+}
+.swiper-pagination-bullet-active{
+    background-color: #F39313;
+}
+/* Join Us End */
