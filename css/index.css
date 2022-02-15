@@ -1,521 +1,555 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* NavBar Start */
 
-li, a, button{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #000000;
-    text-decoration: none;
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
 }
 
-.nav__content{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 5% 10%;
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5% 10%;
 
-    background-image: url(../images/image3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+  background-image: url(../images/image3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-.logo{
-    cursor: pointer;
-    height: 100px;
-    width: 70px;
+.logo {
+  cursor: pointer;
+  height: 100px;
+  width: 70px;
 }
 
-.nav__links{
-    list-style: none;
+.nav__links {
+  list-style: none;
 }
 
-.nav__links li{
-    display: inline-block;
-    padding: 0 20px;
+.nav__links li {
+  display: inline-block;
+  padding: 0 20px;
 }
 
-.nav__links li a{
-    transition: all 0.3s ease 0s;
-    color: #fff;
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+  color: #fff;
 }
 
-.nav__links li a:hover{
-    color: red;
+.nav__links li a:hover {
+  color: red;
 }
 
-.nav__social{
-    list-style: none;
+.nav__social {
+  list-style: none;
 }
 
-.nav__social a{
-    font-size: 22px;
-    padding: 0 20px;
-    transition: all 0.3s ease 0s;
-    color: #fff;
+.nav__social a {
+  font-size: 22px;
+  padding: 0 20px;
+  transition: all 0.3s ease 0s;
+  color: #fff;
 }
 
-.nav__social a:hover{
-    color: red;
+.nav__social a:hover {
+  color: red;
 }
 /* Navbar End */
 
 /* What’s in it for you? Start */
-.whats{
-    display: flex;
-    flex-direction: row;
-    margin: 5% 0;
+.whats {
+  display: flex;
+  flex-direction: row;
+  margin: 5% 0;
 }
 
-.whats .whatsright{
-    width: 50%;
-    position: relative;
+.whats .whatsright {
+  width: 50%;
+  position: relative;
 }
 
-.whats .whatsright .group-1{
-    width: 50%;
-    height: 100%;
-    position: relative;
+.whats .whatsright .group-1 {
+  width: 50%;
+  height: 100%;
+  position: relative;
 }
 
-.whats .whatsright .image-2{
-    height: 350px;
-    width: 350px;
-    top: 10%;
-    left: 20%;
-    position: absolute;
+.whats .whatsright .image-2 {
+  height: 350px;
+  width: 350px;
+  top: 10%;
+  left: 20%;
+  position: absolute;
 }
 
-.whats .whatsright .image-3{
-    height: 200px;
-    width: 200px;
-    top: 55%;
-    left: 55%;
-    position: absolute;
+.whats .whatsright .image-3 {
+  height: 200px;
+  width: 200px;
+  top: 55%;
+  left: 55%;
+  position: absolute;
 }
 
-.whats .whatsright .image-4{
-    height: 150px;
-    width: 150px;
-    top: 80%;
-    left: 40%;
-    position: absolute;
+.whats .whatsright .image-4 {
+  height: 150px;
+  width: 150px;
+  top: 80%;
+  left: 40%;
+  position: absolute;
 }
 
-.whats .whatsright .image-5{
-    height: 200px;
-    width: 200px;
-    top: 65%;
-    left: 15%;
-    position: absolute;
+.whats .whatsright .image-5 {
+  height: 200px;
+  width: 200px;
+  top: 65%;
+  left: 15%;
+  position: absolute;
 }
 
-.whats .whatsleft{
-    width: 50%;
-    height: auto;
+.whats .whatsleft {
+  width: 50%;
+  height: auto;
 }
 
-.whats .whatsleft .title h2{
-    font-size: 36px;
-    position: relative;
-    color: #564E4E;
+.whats .whatsleft .title h2 {
+  font-size: 36px;
+  position: relative;
+  color: #564e4e;
 }
 
-.whats .whatsleft .title h2::after{
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -80%;
-    width: 10%;
-    height: 1px;
-    background-color: #BABABA;
+.whats .whatsleft .title h2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -80%;
+  width: 10%;
+  height: 1px;
+  background-color: #bababa;
 }
 
-.whats .whatsleft .text{
-    position: relative;
-    top: 15%;
+.whats .whatsleft .text {
+  position: relative;
+  top: 15%;
 }
 
-.whats .whatsleft .text p{
-    font-size: 22px;
-    color: #564E4E;
-    font-weight: 600;
-    width: 80%;
-    line-height: 1.5;
+.whats .whatsleft .text p {
+  font-size: 22px;
+  color: #564e4e;
+  font-weight: 600;
+  width: 80%;
+  line-height: 1.5;
 }
 
-.whats .whatsleft .connect{
-    position: relative;
-    top: 20%;
-    font-size: 22px;
-    color: #564E4E;
+.whats .whatsleft .connect {
+  position: relative;
+  top: 20%;
+  font-size: 22px;
+  color: #564e4e;
 }
 
-.whats .whatsleft .connect h3{
-    font-weight: normal;
-    line-height: 2;
+.whats .whatsleft .connect h3 {
+  font-weight: normal;
+  line-height: 2;
 }
 
-.whats .whatsleft .connect p{
-    width: 75%;
-    line-height: 1.5;
+.whats .whatsleft .connect p {
+  width: 75%;
+  line-height: 1.5;
 }
 /* What’s in it for you? End */
 
 /* What our clients say Start */
-.client{
-    width:100%;
-    height: 80vh;
-    background-color: black;
-    position: relative;
+.client {
+  width: 100%;
+  height: 80vh;
+  background-color: black;
+  position: relative;
 }
 
-.client .info{
-    position: absolute;
-    font-size: 36px;
-    font-weight: 400;
-    color: white;
-    left: 42%;
-    top: 15%;
+.client .info {
+  position: absolute;
+  font-size: 36px;
+  font-weight: 400;
+  color: white;
+  left: 42%;
+  top: 15%;
 }
 
-.client .info::before{
-    content: "";
-    display: block;
-    width: 240px;
-    height: 1px;
-    position: absolute;
-    background-color: white;
-    left: -120%;
-    top: 50%;
+.client .info::before {
+  content: "";
+  display: block;
+  width: 240px;
+  height: 1px;
+  position: absolute;
+  background-color: white;
+  left: -120%;
+  top: 50%;
 }
 
-.client .info::after{
-    content: "";
-    display: block;
-    width: 240px;
-    height: 1px;
-    position: absolute;
-    background-color: white;
-    left: 120%;
-    top: 50%;
+.client .info::after {
+  content: "";
+  display: block;
+  width: 240px;
+  height: 1px;
+  position: absolute;
+  background-color: white;
+  left: 120%;
+  top: 50%;
 }
 
 .swiper {
-    width: 80%;
-    height: 50%;
-    position: absolute;
-    top: 40%;
+  width: 80%;
+  height: 50%;
+  position: absolute;
+  top: 40%;
 }
 
 .swiper-slide {
-    background: none;
+  background: none;
 }
 
-.swiper-slide p{
-    font-size: 18px;
-    color: #F6F6F6;
-    line-height: 1.1;
-    width: 80%;
+.swiper-slide p {
+  font-size: 18px;
+  color: #f6f6f6;
+  line-height: 1.1;
+  width: 80%;
 }
 
-.swiper-slide .user{
-    display: flex;
-    flex-direction: row;
-    position: relative;
+.swiper-slide .user {
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 
-.swiper-slide .user img{
-    width: 50px;
-    position: absolute;
-    top: 30px;
+.swiper-slide .user img {
+  width: 50px;
+  position: absolute;
+  top: 30px;
 }
 
-.swiper-slide .userinfo{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    color: #F6F6F6;
-    top: 30px;
-    left: 15%;
-    font-weight: normal;
+.swiper-slide .userinfo {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: #f6f6f6;
+  top: 30px;
+  left: 15%;
+  font-weight: normal;
 }
 
-.swiper-slide .userinfo h2{
-    font-size: 18px;
-    margin-bottom: 10px;
+.swiper-slide .userinfo h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
-.swiper-slide .userinfo h3{
-    font-size: 14px;
+.swiper-slide .userinfo h3 {
+  font-size: 14px;
 }
 
-.swiper-pagination-bullets{
-    bottom: -10%;
+.swiper-pagination-bullets {
+  bottom: -10%;
 }
 /* What our clients say End */
 
 /* Aunty Start */
-.auntyinfo{
-    display: flex;
-    flex-direction: row;
-    margin: 2% 0;
+.auntyinfo {
+  display: flex;
+  flex-direction: row;
+  margin: 2% 0;
 }
 
-.auntyinfo .auntyinfoleft{
-    background-color: #F9F9F9;
-    width: 55%;
-    height: 40vh;
-    margin-top: 3%;
-    position: relative;
+.auntyinfo .auntyinfoleft {
+  background-color: #f9f9f9;
+  width: 55%;
+  height: 40vh;
+  margin-top: 3%;
+  position: relative;
 }
 
-.auntyinfo .auntyinfoleft p{
-    font-size: 24px;
-    font-style: italic;
-    color: #000002;
-    width: 60%;
-    position: absolute;
-    top: 25%;
-    left: 20%;
+.auntyinfo .auntyinfoleft p {
+  font-size: 24px;
+  font-style: italic;
+  color: #000002;
+  width: 60%;
+  position: absolute;
+  top: 25%;
+  left: 20%;
 }
 
-.auntyinfo .auntyinfoleft p::before{
-    content: "\201C";
-    position: absolute;
-    font-weight: bold;
-    font-size: 40px;
-    top: 0;
-    left: -40px;
+.auntyinfo .auntyinfoleft p::before {
+  content: "\201C";
+  position: absolute;
+  font-weight: bold;
+  font-size: 40px;
+  top: 0;
+  left: -40px;
 }
 
-.auntyinfo .auntyinfoleft p::after{
-    content: "\201D";
-    position: absolute;
-    font-weight: bold;
-    font-size: 40px;
-    bottom: 0;
-    right: -60px;
+.auntyinfo .auntyinfoleft p::after {
+  content: "\201D";
+  position: absolute;
+  font-weight: bold;
+  font-size: 40px;
+  bottom: 0;
+  right: -60px;
 }
-.auntyinfo .auntyinfoleft h3{
-    font-size: 22px;
-    color: #292929;
-    font-weight: 600;
-    position: absolute;
-    top: 80%;
-    left: 20%;
-}
-
-.auntyinfo .auntyinforight{
-    width: 45%;
-    height: 50vh;
-    position: relative;
+.auntyinfo .auntyinfoleft h3 {
+  font-size: 22px;
+  color: #292929;
+  font-weight: 600;
+  position: absolute;
+  top: 80%;
+  left: 20%;
 }
 
-.auntyinfo .auntyinforight .smallcircle{
-    position: absolute;
-    top: 25%;
-    left: 24%;
+.auntyinfo .auntyinforight {
+  width: 45%;
+  height: 50vh;
+  position: relative;
 }
 
-.auntyinfo .auntyinforight .auntyimg{
-    width: 350px;
-    height: 350px;
-    position: absolute;
-    top: 10%;
-    left: 25%;
-    z-index: 1;
+.auntyinfo .auntyinforight .smallcircle {
+  position: absolute;
+  top: 25%;
+  left: 24%;
 }
 
-.auntyinfo .auntyinforight .bigcircle{
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 24%;
-    left: 33%;
+.auntyinfo .auntyinforight .auntyimg {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  z-index: 1;
+}
+
+.auntyinfo .auntyinforight .bigcircle {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 24%;
+  left: 33%;
 }
 /* Aunty End*/
 
 /* Certified by Start */
-.certified{
-    width: 100%;
-    height: 40vh;
-    position: relative;
-    background-color: red;
+.certified {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  background-color: red;
 }
 
-.certified .info{
-    position: absolute;
-    font-size: 36px;
-    font-weight: 400;
-    color: #4B4B4B;
-    left: 45%;
-    top: 15%;
+.certified .info {
+  position: absolute;
+  font-size: 36px;
+  font-weight: 400;
+  color: #4b4b4b;
+  left: 45%;
+  top: 15%;
 }
 
-.certified .info::before{
-    content: "";
-    display: block;
-    width: 240px;
-    height: 1px;
-    position: absolute;
-    background-color: #E8E8E8;
-    left: -150%;
-    top: 50%;
+.certified .info::before {
+  content: "";
+  display: block;
+  width: 240px;
+  height: 1px;
+  position: absolute;
+  background-color: #e8e8e8;
+  left: -150%;
+  top: 50%;
 }
 
-.certified .info::after{
-    content: "";
-    display: block;
-    width: 240px;
-    height: 1px;
-    position: absolute;
-    background-color: #E8E8E8;
-    left: 120%;
-    top: 50%;
+.certified .info::after {
+  content: "";
+  display: block;
+  width: 240px;
+  height: 1px;
+  position: absolute;
+  background-color: #e8e8e8;
+  left: 120%;
+  top: 50%;
 }
 /* Certified by End */
 
 /* Extrainfo Start*/
-.extrainfo{
-    display: flex;
-    flex-direction: row;
-    margin: 2% 0;
+.extrainfo {
+  display: flex;
+  flex-direction: row;
+  margin: 2% 0;
 }
 
-.extrainfo .extrainfoleft{
-    width: 45%;
-    height: 50vh;
-    position: relative;
+.extrainfo .extrainfoleft {
+  width: 45%;
+  height: 50vh;
+  position: relative;
 }
 
-.extrainfo .extrainfoleft .smallcircle{
-    position: absolute;
-    top: 25%;
-    left: 24%;
+.extrainfo .extrainfoleft .smallcircle {
+  position: absolute;
+  top: 25%;
+  left: 24%;
 }
 
-.extrainfo .extrainfoleft .extraimg{
-    width: 350px;
-    height: 350px;
-    position: absolute;
-    top: 10%;
-    left: 25%;
-    z-index: 1;
+.extrainfo .extrainfoleft .extraimg {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  z-index: 1;
 }
 
-.extrainfo .extrainfoleft .bigcircle{
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 30%;
-    left: 35%;
+.extrainfo .extrainfoleft .bigcircle {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 30%;
+  left: 35%;
 }
 
-.extrainfo .extrainforight{
-    width: 55%;
-    height: 30vh;
-    margin-top: 5%;
-    position: relative;
-    background-color: #F9F9F9;
+.extrainfo .extrainforight {
+  width: 55%;
+  height: 30vh;
+  margin-top: 5%;
+  position: relative;
+  background-color: #f9f9f9;
 }
 
-.extrainfo .extrainforight p{
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 600;
-    color: #000002;
-    width: 65%;
-    position: absolute;
-    top: 25%;
-    left: 15%;
+.extrainfo .extrainforight p {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  color: #000002;
+  width: 65%;
+  position: absolute;
+  top: 25%;
+  left: 15%;
 }
 
-.extrainfo .extrainforight p::before{
-    content: "\201C";
-    position: absolute;
-    font-weight: bold;
-    font-size: 40px;
-    top: -30px;
-    left: -40px;
+.extrainfo .extrainforight p::before {
+  content: "\201C";
+  position: absolute;
+  font-weight: bold;
+  font-size: 40px;
+  top: -30px;
+  left: -40px;
 }
 
-.extrainfo .extrainforight p::after{
-    content: "\201D";
-    position: absolute;
-    font-weight: bold;
-    font-size: 40px;
-    bottom: -30px;
-    right: -60px;
+.extrainfo .extrainforight p::after {
+  content: "\201D";
+  position: absolute;
+  font-weight: bold;
+  font-size: 40px;
+  bottom: -30px;
+  right: -60px;
 }
 /* Extrainfo End */
 
 /* Gallary Start */
-.gallary{
-    width: 100%;
-    height: 100vh;
-    position: relative;
+.gallary {
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
 
-.gallary .title{
-    position: absolute;
-    font-size: 36px;
-    font-weight: 400;
-    color: #4B4B4B;
-    left: 45%;
-    top: 10%;
+.gallary .title {
+  position: absolute;
+  font-size: 36px;
+  font-weight: 400;
+  color: #4b4b4b;
+  left: 45%;
+  top: 10%;
 }
 
-.gallary .title::before{
-    content: "";
-    display: block;
-    width: 240px;
-    height: 1px;
-    position: absolute;
-    background-color: #E8E8E8;
-    left: -250%;
-    top: 50%;
+.gallary .title::before {
+  content: "";
+  display: block;
+  width: 240px;
+  height: 1px;
+  position: absolute;
+  background-color: #e8e8e8;
+  left: -250%;
+  top: 50%;
 }
 
-.gallary .title::after{
-    content: "";
-    display: block;
-    width: 240px;
-    height: 1px;
-    position: absolute;
-    background-color: #E8E8E8;
-    left: 150%;
-    top: 50%;
+.gallary .title::after {
+  content: "";
+  display: block;
+  width: 240px;
+  height: 1px;
+  position: absolute;
+  background-color: #e8e8e8;
+  left: 150%;
+  top: 50%;
 }
 
-.gallary .grid{
-    width: 80%;
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
-    column-gap: 20px;
-    row-gap: 20px;
+.gallary .grid {
+  width: 80%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
-.gallary .grid img{
-    width: 400px;
-    height: 250px;
-    object-fit: cover;
-    object-position: center;
-
+.gallary .grid img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* Gallary End */
+
+/* Footer Start */
+.footer {
+  margin-top: 400px; /* subject to change */
+  background: #000;
+  position: relative;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.footer-cols {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-subhead {
+  font-size: 23px;
+  color: #fadcd9;
+}
+
+.footer-col-ele {
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.text-col-2 {
+  margin-left: 30px;
+}
+
+/* Footer End */
