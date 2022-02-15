@@ -50,13 +50,8 @@ button {
   color: #fff;
 }
 
-<<<<<<< HEAD
 .nav__links li a:hover{
     color: #F39313;
-=======
-.nav__links li a:hover {
-  color: red;
->>>>>>> 56a400df687a7d7237b9d473b7cff72175eed83c
 }
 
 .nav__social {
@@ -70,13 +65,8 @@ button {
   color: #fff;
 }
 
-<<<<<<< HEAD
 .nav__social a:hover{
     color: #F39313;
-=======
-.nav__social a:hover {
-  color: red;
->>>>>>> 56a400df687a7d7237b9d473b7cff72175eed83c
 }
 /* Navbar End */
 
@@ -223,18 +213,11 @@ button {
 }
 
 .swiper {
-<<<<<<< HEAD
     width: 80%;
     height: 55%;
     position: absolute;
     top: 35%;
     left: 10%;
-=======
-  width: 80%;
-  height: 50%;
-  position: absolute;
-  top: 40%;
->>>>>>> 56a400df687a7d7237b9d473b7cff72175eed83c
 }
 
 .swiper-slide {
@@ -279,7 +262,6 @@ button {
   font-size: 14px;
 }
 
-<<<<<<< HEAD
 .swiper-horizontal > .swiper-pagination-bullets{
     bottom: -1%;
     z-index: 1;
@@ -291,10 +273,6 @@ button {
 
 .swiper-pagination-bullet-active{
     background-color: #F39313;
-=======
-.swiper-pagination-bullets {
-  bottom: -10%;
->>>>>>> 56a400df687a7d7237b9d473b7cff72175eed83c
 }
 /* What our clients say End */
 
