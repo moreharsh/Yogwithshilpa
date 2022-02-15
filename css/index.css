@@ -224,6 +224,7 @@ button {
     position: absolute;
     top: 35%;
     left: 10%;
+    cursor: pointer;
 }
 
 .swiper-slide {
@@ -549,6 +550,10 @@ button {
   object-position: center;
 }
 
+.gallary .grid img:hover{
+  transform: scale(1.25);
+  transition: .5s ease-out;
+}
 /* Gallary End */
 
 /* Footer Start */
