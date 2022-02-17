@@ -84,17 +84,18 @@ button {
   text-align: center;
   position: absolute;
   top: 40%;
-  left: 33%;
+  left: 30%;
 }
 
 .bannerdescription {
   color: white;
   font-size: 18px;
   font-weight: 400;
+  line-height: 1.9;
   position: absolute;
   width: 30%;
   text-align: center;
-  top: 50%;
+  top: 53%;
   left: 35%;
 }
 /* Navbar End */
@@ -120,7 +121,7 @@ button {
 .whats .whatsright .image-2 {
   height: 350px;
   width: 350px;
-  top: 10%;
+  top: 5%;
   left: 20%;
   position: absolute;
 }
@@ -129,7 +130,7 @@ button {
   height: 200px;
   width: 200px;
   top: 55%;
-  left: 55%;
+  left: 57%;
   position: absolute;
 }
 
@@ -145,7 +146,7 @@ button {
   height: 200px;
   width: 200px;
   top: 65%;
-  left: 15%;
+  left: 12%;
   position: absolute;
 }
 
@@ -179,30 +180,31 @@ button {
 }
 
 .whats .whatsleft .text p {
-  font-size: 22px;
+  font-size: 20px;
   color: #564e4e;
   font-weight: 600;
   width: 80%;
-  line-height: 1.5;
+  line-height: 1.9;
   font-family: "Poppins", sans-serif;
 }
 
 .whats .whatsleft .connect {
   position: relative;
   top: 20%;
-  font-size: 22px;
+  font-size: 20px;
   color: #564e4e;
   font-family: "Poppins", sans-serif;
 }
 
 .whats .whatsleft .connect h3 {
+  font-size: 20px;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.9;
 }
 
 .whats .whatsleft .connect p {
   width: 75%;
-  line-height: 1.5;
+  line-height: 1.9;
   font-weight: 300;
 }
 /* What’s in it for you? End */
@@ -210,7 +212,7 @@ button {
 /* What our clients say Start */
 .client {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-color: black;
   position: relative;
   margin-top: 15%;
@@ -250,7 +252,7 @@ button {
 
 .swiper {
   width: 80%;
-  height: 55%;
+  height: 60vh;
   position: absolute;
   top: 35%;
   left: 10%;
@@ -264,7 +266,7 @@ button {
 .swiper-slide p {
   font-size: 15px;
   color: #f6f6f6;
-  line-height: 1.5;
+  line-height: 1.9;
   width: 80%;
 }
 
@@ -292,11 +294,13 @@ button {
 
 .swiper-slide .userinfo h2 {
   font-size: 18px;
+  font-weight: normal;
   margin-bottom: 10px;
 }
 
 .swiper-slide .userinfo h3 {
   font-size: 14px;
+  font-weight: normal;
 }
 
 .swiper-horizontal > .swiper-pagination-bullets {
@@ -356,7 +360,7 @@ button {
   right: -60px;
 }
 .auntyinfo .auntyinfoleft h3 {
-  font-size: 22px;
+  font-size: 20px;
   color: #292929;
   font-weight: 600;
   position: absolute;
@@ -453,7 +457,7 @@ button {
 .extrainfo {
   display: flex;
   flex-direction: row;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 5%;
 }
 
@@ -537,7 +541,7 @@ button {
   font-weight: 400;
   color: #4b4b4b;
   left: 45%;
-  top: 10%;
+  top: 7%;
 }
 
 .gallary .title::before {
@@ -565,7 +569,7 @@ button {
 .gallary .grid {
   width: 80%;
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 10%;
   justify-content: center;
   align-items: center;
@@ -604,7 +608,7 @@ button {
 }
 
 .footer-subhead {
-  font-size: 23px;
+  font-size: 18px;
   color: #fadcd9;
 }
 
