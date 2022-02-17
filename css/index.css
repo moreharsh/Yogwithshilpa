@@ -538,13 +538,13 @@ button {
   justify-content: center;
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 350px));
   column-gap: 20px;
   row-gap: 20px;
 }
 
 .gallary .grid img {
-  width: 400px;
+  width: 350px;
   height: 250px;
   object-fit: cover;
   object-position: center;
@@ -586,3 +586,23 @@ button {
 }
 
 /* Footer End */
+
+@media screen and (max-width: 1362px) {
+  .gallary .grid{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+  }
+  .gallary .grid img {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1175px) {
+  .gallary .grid{
+    grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
+  }
+  .gallary .grid img {
+    width: 250px;
+    height: 200px;
+  }
+}
