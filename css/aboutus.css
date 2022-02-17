@@ -286,35 +286,56 @@ button {
 
 /* Footer Start */
 .footer {
-    background: #000;
-    position: relative;
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: #fff;
+  background: #000;
+  position: relative;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
 }
-  
+
 .footer-cols {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-  
+
 .footer-subhead {
-    font-size: 23px;
-    color: #fadcd9;
+  font-size: 23px;
+  color: #fadcd9;
 }
-  
+
 .footer-col-ele {
-    font-size: 15px;
-    margin-top: 3px;
+  font-size: 15px;
+  margin-top: 3px;
 }
-  
+
 .text-col-2 {
-    margin-left: 30px;
+  margin-left: 30px;
 }
-  
+
 /* Footer End */
+
+.vision .client .info::before {
+  content: "";
+  display: block;
+  width: 240px;
+  height: 1px;
+  position: absolute;
+  background-color: #bababa;
+  left: -280%;
+  top: 50%;
+}
+
+.vision .text {
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+  left: 15%;
+  right: 20%;
+  top: 270%;
+}
 
 /* Responsive Start */
 
