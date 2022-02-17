@@ -18,7 +18,7 @@ button {
   text-decoration: none;
 }
 
-.banner{
+.banner {
   background-image: url(../images/image3.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,7 +27,6 @@ button {
   width: 100%;
   position: relative;
 }
-
 
 .nav__content {
   display: flex;
@@ -56,23 +55,24 @@ button {
   color: #fff;
 }
 
-.nav__links li a:hover{
-    color: #F39313;
+.nav__links li a:hover {
+  color: #f39313;
 }
 
 .nav__social {
   list-style: none;
+  display: flex;
 }
 
 .nav__social a {
   font-size: 22px;
-  padding: 0 20px;
+  padding: 0 10px;
   transition: all 0.3s ease 0s;
   color: #fff;
 }
 
-.nav__social a:hover{
-    color: #F39313;
+.nav__social a:hover {
+  color: #f39313;
 }
 /* Navbar End */
 
@@ -219,12 +219,12 @@ button {
 }
 
 .swiper {
-    width: 80%;
-    height: 55%;
-    position: absolute;
-    top: 35%;
-    left: 10%;
-    cursor: pointer;
+  width: 80%;
+  height: 55%;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  cursor: pointer;
 }
 
 .swiper-slide {
@@ -269,17 +269,17 @@ button {
   font-size: 14px;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets{
-    bottom: -1%;
-    z-index: 1;
+.swiper-horizontal > .swiper-pagination-bullets {
+  bottom: -1%;
+  z-index: 1;
 }
 
-.swiper-pagination-bullet{
-    background-color: #F39313;
+.swiper-pagination-bullet {
+  background-color: #f39313;
 }
 
-.swiper-pagination-bullet-active{
-    background-color: #F39313;
+.swiper-pagination-bullet-active {
+  background-color: #f39313;
 }
 /* What our clients say End */
 
@@ -550,9 +550,9 @@ button {
   object-position: center;
 }
 
-.gallary .grid img:hover{
+.gallary .grid img:hover {
   transform: scale(1.25);
-  transition: .5s ease-out;
+  transition: 0.5s ease-out;
 }
 /* Gallary End */
 
@@ -588,7 +588,7 @@ button {
 /* Footer End */
 
 @media screen and (max-width: 1362px) {
-  .gallary .grid{
+  .gallary .grid {
     grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
   }
   .gallary .grid img {
@@ -598,7 +598,7 @@ button {
 }
 
 @media screen and (max-width: 1175px) {
-  .gallary .grid{
+  .gallary .grid {
     grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
   }
   .gallary .grid img {
