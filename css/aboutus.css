@@ -340,6 +340,26 @@ button {
   top: 270%;
 }
 
+/* Socials Start */
+
+.uil {
+  width: 31px;
+  height: 31.64px;
+  font-size: 31px;
+  color: #f39313;
+}
+.handle {
+  font-size: 18px;
+  line-height: 44px;
+}
+
+.handle-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Socials End */
+
 /* Responsive Start */
 
 /* Responsive End */
