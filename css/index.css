@@ -431,7 +431,8 @@ button {
 .extrainfo {
   display: flex;
   flex-direction: row;
-  margin: 10% 0;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
 .extrainfo .extrainfoleft {
