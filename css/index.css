@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* font-family: "Poppins", sans-serif; */
+  font-family: "Poppins", sans-serif;
 }
 
 /* NavBar Start */
@@ -378,11 +378,12 @@ button {
   width: 100%;
   height: 40vh;
   position: relative;
+  margin-top: 8%;
 }
 
 .certified .info {
   position: absolute;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 400;
   color: #4b4b4b;
   left: 45%;
@@ -418,7 +419,7 @@ button {
 }
 .cred {
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 3;
   padding: 7px 28px;
   border: 1.5px solid #f39313;
@@ -473,7 +474,7 @@ button {
 }
 
 .extrainfo .extrainforight p {
-  font-size: 24px;
+  font-size: 20px;
   font-style: italic;
   font-weight: 600;
   color: #000002;
