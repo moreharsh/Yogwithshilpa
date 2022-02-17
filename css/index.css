@@ -212,7 +212,7 @@ button {
 /* What our clients say Start */
 .client {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background-color: black;
   position: relative;
   margin-top: 15%;
@@ -225,7 +225,7 @@ button {
   font-weight: 400;
   color: white;
   left: 40%;
-  top: 15%;
+  top: 10%;
 }
 
 .client .info::before {
@@ -251,10 +251,10 @@ button {
 }
 
 .swiper {
-  width: 80%;
-  height: 60vh;
+  width: 90%;
+  height: 70%;
   position: absolute;
-  top: 35%;
+  top: 25%;
   left: 10%;
   cursor: pointer;
 }
@@ -327,19 +327,20 @@ button {
 .auntyinfo .auntyinfoleft {
   background-color: #f9f9f9;
   width: 55%;
-  height: 40vh;
+  height: 50vh;
   margin-top: 5%;
   position: relative;
 }
 
 .auntyinfo .auntyinfoleft p {
   font-size: 18px;
+  line-height: 1.7;
   font-style: italic;
   color: #000002;
-  width: 60%;
+  width: 80%;
   position: absolute;
-  top: 25%;
-  left: 20%;
+  top: 10%;
+  left: 15%;
 }
 
 .auntyinfo .auntyinfoleft p::before {
@@ -347,7 +348,7 @@ button {
   position: absolute;
   font-weight: bold;
   font-size: 40px;
-  top: 0;
+  top: -10px;
   left: -40px;
 }
 
@@ -356,8 +357,8 @@ button {
   position: absolute;
   font-weight: bold;
   font-size: 40px;
-  bottom: 0;
-  right: -60px;
+  bottom: -20px;
+  right: -20px;
 }
 .auntyinfo .auntyinfoleft h3 {
   font-size: 20px;
@@ -365,7 +366,7 @@ button {
   font-weight: 600;
   position: absolute;
   top: 80%;
-  left: 20%;
+  left: 15%;
 }
 
 .auntyinfo .auntyinforight {
