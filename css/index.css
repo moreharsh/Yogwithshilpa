@@ -121,8 +121,9 @@ button {
 .whats .whatsright .image-2 {
   height: 350px;
   width: 350px;
-  top: 5%;
+  top: 10%;
   left: 20%;
+  border-radius: 50%;
   position: absolute;
 }
 
@@ -131,6 +132,7 @@ button {
   width: 200px;
   top: 55%;
   left: 57%;
+  border-radius: 50%;
   position: absolute;
 }
 
@@ -139,6 +141,7 @@ button {
   width: 150px;
   top: 80%;
   left: 40%;
+  border-radius: 50%;
   position: absolute;
 }
 
@@ -147,6 +150,7 @@ button {
   width: 200px;
   top: 65%;
   left: 12%;
+  border-radius: 50%;
   position: absolute;
 }
 
@@ -212,7 +216,7 @@ button {
 /* What our clients say Start */
 .client {
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   background-color: black;
   position: relative;
   margin-top: 15%;
@@ -252,7 +256,7 @@ button {
 
 .swiper {
   width: 90%;
-  height: 70%;
+  height: 65%;
   position: absolute;
   top: 25%;
   left: 10%;
@@ -278,7 +282,9 @@ button {
 
 .swiper-slide .user img {
   width: 50px;
+  height: 50px;
   position: absolute;
+  border-radius: 50%;
   top: 30px;
 }
 
@@ -478,6 +484,7 @@ button {
   width: 350px;
   height: 350px;
   position: absolute;
+  border-radius: 50%;
   top: 10%;
   left: 25%;
   z-index: 1;
