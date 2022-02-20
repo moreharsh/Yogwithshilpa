@@ -155,7 +155,7 @@ button {
   font-size: 20px;
   color: #2f2f2f;
   position: absolute;
-  top: 28%;
+  top: 30%;
 }
 
 .swiper-slide p {
@@ -164,7 +164,7 @@ button {
   line-height: 1.7;
   width: 85%;
   position: absolute;
-  top: 38%;
+  top: 40%;
 }
 
 .swiper-slide .user {
