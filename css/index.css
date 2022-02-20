@@ -21,7 +21,7 @@ button {
 }
 
 .banner {
-  background-image: url(../images/image3.png);
+  background-image: url(../images/Banner_image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -388,9 +388,10 @@ button {
 }
 
 .auntyinfo .auntyinforight .auntyimg {
-  width: 350px;
-  height: 350px;
+  width: 325px;
+  height: 325px;
   position: absolute;
+  border-radius: 50%;
   top: 10%;
   left: 25%;
   z-index: 1;
