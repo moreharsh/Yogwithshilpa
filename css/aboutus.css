@@ -152,7 +152,7 @@ button {
 }
 
 .swiper-slide h3 {
-  font-size: 24px;
+  font-size: 20px;
   color: #2f2f2f;
   position: absolute;
   top: 28%;
@@ -232,7 +232,7 @@ button {
   position: relative;
 }
 .letstalk .letstalkleft .text p {
-  font-size: 20px;
+  font-size: 18px;
   width: 80%;
   color: #564e4e;
   margin-top: 15%;
@@ -344,7 +344,7 @@ button {
   position: absolute;
   text-align: center;
   color: #292929;
-  font-size: 20px;
+  font-size: 18px;
   width: 50%;
   line-height: 1.9;
   left: 23%;
