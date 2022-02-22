@@ -651,3 +651,57 @@ button {
     height: 200px;
   }
 }
+
+
+
+@media screen and (max-width: 999px) {
+
+  .banner{
+    background-image: url(../images/Mobile_screen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+
+  .nav__content{
+    display: none;
+  }
+  .bannertext{
+    display: none;
+  }
+  .bannerdescription{
+    display: none;
+  }
+
+  .whats{
+    display: none;
+  }
+  
+  .client{
+    display: none;
+  }
+
+  .auntyinfo{
+    display: none;
+  }
+
+  .certified{
+    display: none;
+  }
+
+  .extrainfo{
+    display: none;
+  }
+
+  .gallary{
+    display: none;
+  }
+
+  .footer{
+    display: none;
+  }
+}

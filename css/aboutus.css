@@ -383,4 +383,75 @@ button {
 
 /* Responsive Start */
 
+@media screen and (max-width: 999px) {
+  .client .info{
+    left: 40%;
+  }
+  .client .info::before{
+    width: 150px;
+    left: -100%;
+  }
+  .client .info::after{
+    width: 150px;
+    left: 120%;
+  }
+
+  .letstalk{
+    display: none;
+  }
+
+  .vision .text{
+    top: 40%;
+  }
+  .vision .client .info::before{
+    width: 150px;
+    left: -150%;
+  }
+  .vision .client .info::after{
+    width: 150px;
+    left: 120%;
+  }
+}
+
+
+@media screen and (max-width: 999px) {
+
+  .banner{
+    background-image: url(../images/Mobile_screen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+
+  .nav__content{
+    display: none;
+  }
+  .bannertext{
+    display: none;
+  }
+  .bannerdescription{
+    display: none;
+  }
+
+  .client{
+    display: none;
+  }
+  
+  .letstalk{
+    display: none;
+  }
+
+  .vision{
+    display: none;
+  }
+
+  .footer{
+    display: none;
+  }
+}
+
 /* Responsive End */
