@@ -173,12 +173,21 @@ button {
   position: relative;
 }
 
-.swiper-slide .user img {
-  width: 100px;
-  height: 100px;
+.swiper-slide .user .userimg{
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   position: absolute;
   top: 0;
+  background-color: #F8F8F8;
+}
+
+.swiper-slide .user .userimg i {
+  font-size: 48px;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  color: #550597;
 }
 
 .swiper-horizontal > .swiper-pagination-bullets,
