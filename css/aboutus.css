@@ -187,7 +187,7 @@ button {
   position: absolute;
   top: 5%;
   left: 20%;
-  color: #550597;
+  color: #f39313;
 }
 
 .swiper-horizontal > .swiper-pagination-bullets,
@@ -261,8 +261,8 @@ button {
 }
 
 .letstalk .letstalkright .image {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   position: absolute;
   top: 10%;
@@ -274,8 +274,8 @@ button {
   width: 300px;
   height: 300px;
   position: absolute;
-  top: 45%;
-  left: 50%;
+  top: 35%;
+  left: 40%;
 }
 .letstalk .letstalkright .group-1 {
   position: absolute;
@@ -384,6 +384,11 @@ button {
 /* Responsive Start */
 
 @media screen and (max-width: 999px) {
+  
+}
+
+
+@media screen and (max-width: 999px) {
   .client .info{
     left: 40%;
   }
@@ -412,7 +417,6 @@ button {
     left: 120%;
   }
 }
-
 
 @media screen and (max-width: 999px) {
 
@@ -453,5 +457,4 @@ button {
     display: none;
   }
 }
-
 /* Responsive End */

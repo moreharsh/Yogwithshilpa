@@ -195,19 +195,20 @@ button {
 .whats .whatsleft .connect {
   position: relative;
   top: 20%;
-  font-size: 20px;
+  font-size: 18px;
   color: #564e4e;
   font-family: "Poppins", sans-serif;
 }
 
 .whats .whatsleft .connect h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
   line-height: 1.9;
 }
 
 .whats .whatsleft .connect p {
   width: 75%;
+  font-size: 18px;
   line-height: 1.9;
   font-weight: 300;
 }
