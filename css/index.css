@@ -597,9 +597,20 @@ button {
 }
 
 .gallary .grid img:hover {
-  transform: scale(1.25);
-  transition: 0.5s ease-out;
+  /* transform: scale(1.25); */
+  /* transition: 0.5s ease-out; */
 }
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-image-container:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: transform 7s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 /* Gallary End */
 
 /* Footer Start */
@@ -653,11 +664,8 @@ button {
   }
 }
 
-
-
 @media screen and (max-width: 999px) {
-
-  .banner{
+  .banner {
     background-image: url(../images/Mobile_screen.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -668,41 +676,41 @@ button {
     position: relative;
   }
 
-  .nav__content{
+  .nav__content {
     display: none;
   }
-  .bannertext{
+  .bannertext {
     display: none;
   }
-  .bannerdescription{
-    display: none;
-  }
-
-  .whats{
-    display: none;
-  }
-  
-  .client{
+  .bannerdescription {
     display: none;
   }
 
-  .auntyinfo{
+  .whats {
     display: none;
   }
 
-  .certified{
+  .client {
     display: none;
   }
 
-  .extrainfo{
+  .auntyinfo {
     display: none;
   }
 
-  .gallary{
+  .certified {
     display: none;
   }
 
-  .footer{
+  .extrainfo {
+    display: none;
+  }
+
+  .gallary {
+    display: none;
+  }
+
+  .footer {
     display: none;
   }
 }
