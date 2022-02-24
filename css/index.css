@@ -206,10 +206,18 @@ button {
   line-height: 1.9;
 }
 
-.whats .whatsleft .connect p {
+.whats .whatsleft .connect ul {
   width: 75%;
   font-size: 18px;
   line-height: 1.9;
+  font-weight: 300;
+  position: absolute;
+  left: 5%;
+}
+
+.whats .whatsleft .connect ul li{
+  color: #564e4e;
+  font-size: 18px;
   font-weight: 300;
 }
 /* What’s in it for you? End */
@@ -595,12 +603,12 @@ button {
   object-fit: cover;
   object-position: center;
 }
-
+/*
 .gallary .grid img:hover {
-  /* transform: scale(1.25); */
-  /* transition: 0.5s ease-out; */
+   transform: scale(1.25); 
+   transition: 0.5s ease-out;
 }
-
+*/
 .gallery-item {
   overflow: hidden;
 }
