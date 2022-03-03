@@ -700,6 +700,12 @@ button {
   .client .info{
     font-size: 28px;
   }
+  .client .info::before{
+    width: 80px;
+  }
+  .client .info::after{
+    width: 80px;
+  }
 
   .letstalk{
     flex-direction: column;
