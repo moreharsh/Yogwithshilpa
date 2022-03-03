@@ -699,12 +699,15 @@ button {
 
   .client .info{
     font-size: 28px;
+    left: 30%;
   }
   .client .info::before{
     width: 80px;
+    left: -60%;
   }
   .client .info::after{
     width: 80px;
+    left: 110%;
   }
 
   .letstalk{
