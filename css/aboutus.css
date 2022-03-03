@@ -190,15 +190,6 @@ button {
   color: #f39313;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-  bottom: 10%;
-}
-.swiper-pagination-bullet-active {
-  background-color: #f39313;
-}
 /* Join Us End */
 
 /* Let's Talk Strat*/
@@ -528,6 +519,9 @@ button {
     left: 35%;
   }
 
+  .vision .client{
+    margin-top: -5%;
+  }
   .vision .text{
     top: 40%;
     font-size: 14px;
@@ -546,7 +540,16 @@ button {
 
   .footer {
     margin-top: 20%;
-  }  
+  }
+  .footer .text{
+    font-size: 16px;
+  }
+  .footer-subhead {
+    font-size: 16px;
+  }
+  .footer-col-ele {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -585,10 +588,158 @@ button {
     top: 20%;
   }
 
+  .vision .text{
+    width: 70%;
+    left: 15%;
+  }
+  
+  .footer {
+    margin-top: 22%;
+  }
+  .footer .text{
+    font-size: 14px;
+  }
+  .footer-subhead {
+    font-size: 14px;
+  }
+
+  .footer-col-ele {
+    font-size: 12px;
+  }
 }
 
-@media screen and (max-width: 682px) {
+@media screen and (max-width: 685px) {
+  li,
+  a,
+  button {
+    font-size: 14px;
+  }
+  .nav__links li {
+    padding: 0 10px;
+  }
+  .nav__social a {
+    font-size: 18px;
+    padding: 0 5px;
+  }  
+  .bannertext{
+    left: 22%;
+  }
+
+  .client{
+    height: 60vh;
+  }
+  .client .info{
+    left: 35%;
+  }
+  .client .info::before{
+    width: 100px;
+    left: -80%;
+  }
+  .client .info::after{
+    width: 100px;
+  }
+
+  .letstalk .letstalkright{
+    margin-left: -10%;
+  }
+
+  .swiper-slide h3 {
+    font-size: 16px;
+    top: 25%;
+  }
+  .swiper-slide p {
+    font-size: 14px;
+    top: 35%;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 5%;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #f39313;
+  }
+
+  .vision .client{
+    margin-top: 5%;
+  }
+  .vision .text{
+    top: 30%;
+  }
+
+  .footer {
+    margin-top: 25%;
+  }  
+}
+
+@media screen and (max-width: 600px) {
+  .client{
+    height: 70vh;
+  }
+
+  .letstalk{
+    margin-top: 20%;
+  }
+
+  .vision .client{
+    margin-top: 10%;
+  }
   
+  .footer {
+    margin-top: 30%;
+  }  
+}
+
+@media screen and (max-width: 560px) {
+  .bannertext{
+    left: 18%;
+  }
+
+  .client .info{
+    font-size: 28px;
+  }
+
+  .letstalk{
+    flex-direction: column;
+  }
+
+  .letstalk .letstalkleft{
+    width: 100%;
+  }
+  .letstalk .letstalkleft .letstalkleftcontent{
+    width: 80%;
+  }
+
+  .letstalk .letstalkright{
+    width: 100%;
+    height: 40vh;
+    margin-top: 10%;
+  }
+  .letstalk .letstalkright .smallcircle{
+    top: 0;
+    left: 30%;
+  }
+  .letstalk .letstalkright .image{
+    top: -5%;
+    left: 31%;
+  }
+  .letstalk .letstalkright .bigcircle{
+    top: 8%;
+    left: 45%;
+  }
+
+  .footer .text{
+    font-size: 12px;
+  }
+  .footer-subhead {
+    font-size: 12px;
+  }
+
+  .footer-col-ele {
+    font-size: 10px;
+  }
 }
 
 /* Responsive End */
