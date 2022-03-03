@@ -467,6 +467,11 @@ button {
     font-size: 14px;
   }
 
+  .letstalk .letstalkright .image{
+    width: 325px;
+    height: 325px;
+  }
+
   .vision {
     height: 60vh;
   }
@@ -478,6 +483,14 @@ button {
 
 
 @media screen and (max-width: 999px) {
+  .bannertext{
+    left: 28%;
+  }
+  .bannerdescription{
+    width: 40%;
+    left: 30%;
+  }
+
   .client .info{
     left: 40%;
   }
@@ -490,62 +503,92 @@ button {
     left: 120%;
   }
 
-  .letstalk{
-    display: none;
+  .letstalk .letstalkleft .title h2{ 
+    font-size: 28px;
+  }
+  .letstalk .letstalkleft .text p{ 
+    font-size: 14px;
+  }
+  .letstalk .letstalkleft .socials .handle a{ 
+    font-size: 14px;
+  }
+
+  .letstalk .letstalkright{
+    margin-left: -5%;
+  }
+  .letstalk .letstalkright .group-1 {
+    right: -10%;
+  }
+  .letstalk .letstalkright .image{
+    width: 300px;
+    height: 300px;
+  }
+  .letstalk .letstalkright .bigcircle{
+    top: 25%;
+    left: 35%;
   }
 
   .vision .text{
     top: 40%;
+    font-size: 14px;
+  }
+  .vision .client .info{
+    left: 42%;
   }
   .vision .client .info::before{
-    width: 150px;
+    width: 120px;
     left: -150%;
   }
   .vision .client .info::after{
-    width: 150px;
+    width: 120px;
     left: 120%;
   }
+
+  .footer {
+    margin-top: 20%;
+  }  
 }
 
-/* Temporary */
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 999px) {
-
-  .banner{
-    background-image: url(../images/Mobile_screen.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-  }
-
-  .nav__content{
-    display: none;
-  }
   .bannertext{
-    display: none;
+    font-size: 32px;
+    left: 25%;
   }
   .bannerdescription{
-    display: none;
+    width: 50%;
+    left: 27%;
   }
 
-  .client{
-    display: none;
+  .letstalk{
+    margin-top: 10%;
   }
   
-  .letstalk{
-    display: none;
+  .letstalk .letstalkright .image{
+    width: 250px;
+    height: 250px;
+    top: 15%;
+  }
+  .letstalk .letstalkright .bigcircle{
+    width: 200px;
+    top: 25%;
+    left: 40%;
   }
 
-  .vision{
-    display: none;
+  .swiper-slide h3 {
+    font-size: 16px;
+    top: 15%;
   }
 
-  .footer{
-    display: none;
+  .swiper-slide p {
+    font-size: 14px;
+    top: 20%;
   }
+
 }
+
+@media screen and (max-width: 682px) {
+  
+}
+
 /* Responsive End */
