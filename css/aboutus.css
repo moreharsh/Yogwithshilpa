@@ -741,14 +741,75 @@ button {
 
   .footer .text{
     font-size: 12px;
+    text-align: center;
   }
   .footer-subhead {
     font-size: 12px;
   }
-
   .footer-col-ele {
     font-size: 10px;
   }
 }
 
+@media screen and (max-width: 490px) {
+  .nav__links li {
+    padding: 5px 80px;
+  }
+  .nav__social a {
+    padding: 0 5px;
+  }
+
+  .bannertext{
+    font-size: 28px;
+    left: 15%;
+  }
+  .bannerdescription{
+    top: 50%;
+  }
+
+  .letstalk .letstalkright{
+    margin-top: 15%;
+  }
+
+  .vision{
+    height: 70vh;
+  }
+
+  .footer .logo{
+    width: 50px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav__links li {
+    padding: 5px 40px;
+  }
+  .bannertext{
+    font-size: 24px;
+  }
+
+  .letstalk .letstalkleft .socials .handle a {
+    font-size: 12px;
+  }
+
+  .vision .client .info::before{
+    width: 80px;
+    left: -120%;
+  }
+  .vision .client .info::after{
+    width: 80px;
+    left: 120%;
+  }
+
+  .footer{
+    margin-top: 40%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .footer{
+    margin-top: 55%;
+  }
+}
 /* Responsive End */
