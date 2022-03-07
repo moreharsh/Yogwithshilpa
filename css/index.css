@@ -215,7 +215,7 @@ button {
   left: 5%;
 }
 
-.whats .whatsleft .connect ul li{
+.whats .whatsleft .connect ul li {
   color: #564e4e;
   font-size: 18px;
   font-weight: 300;
@@ -605,7 +605,7 @@ button {
 }
 /*
 .gallary .grid img:hover {
-   transform: scale(1.25); 
+   transform: scale(1.25);
    transition: 0.5s ease-out;
 }
 */
@@ -676,7 +676,7 @@ button {
 }
 
 @media screen and (max-width: 999px) {
-  .banner {
+  /* .banner {
     background-image: url(../images/Mobile_screen.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -723,5 +723,9 @@ button {
 
   .footer {
     display: none;
+  } */
+
+  .bannertext {
+    left: 10vw;
   }
 }
