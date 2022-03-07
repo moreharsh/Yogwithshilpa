@@ -63,7 +63,6 @@ button {
 
 .nav__social {
   list-style: none;
-  display: flex;
 }
 
 .nav__social a {
@@ -649,8 +648,19 @@ button {
 .text-col-2 {
   margin-left: 30px;
 }
-
 /* Footer End */
+
+/* Responsive Start*/
+@media screen and (max-width: 1500px) {
+  .bannertext {
+    font-size: 42px;
+  }
+  
+  .bannerdescription {
+    font-size: 16px;
+  }
+
+}
 
 @media screen and (max-width: 1362px) {
   .gallary .grid {
@@ -659,6 +669,26 @@ button {
   .gallary .grid img {
     width: 300px;
     height: 200px;
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  .bannertext {
+    font-size: 40px;
+    left: 30%;
+  }
+  
+  .bannerdescription {
+    left: 33%;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .bannertext {
+    font-size: 36px;
+  }
+  .bannerdescription {
+    font-size: 14px;
   }
 }
 
@@ -676,27 +706,160 @@ button {
 }
 
 @media screen and (max-width: 999px) {
-  /* .banner {
-    background-image: url(../images/Mobile_screen.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-    position: relative;
+  .bannertext{
+    left: 28%;
   }
 
-  .nav__content {
-    display: none;
-  }
-  .bannertext {
-    display: none;
-  }
-  .bannerdescription {
-    display: none;
+  .bannerdescription{
+    width: 40%;
+    left: 30%;
   }
 
+  .footer {
+    margin-top: 20%;
+  }
+  .footer .text{
+    font-size: 16px;
+  }
+  .footer-subhead {
+    font-size: 16px;
+  }
+  .footer-col-ele {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .bannertext{
+    font-size: 32px;
+    left: 25%;
+  }
+  .bannerdescription{
+    width: 50%;
+    left: 27%;
+  }
+
+  .footer {
+    margin-top: 22%;
+  }
+  .footer .text{
+    font-size: 14px;
+  }
+  .footer-subhead {
+    font-size: 14px;
+  }
+
+  .footer-col-ele {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  li,
+  a,
+  button {
+    font-size: 14px;
+  }
+  .nav__links li {
+    padding: 0 10px;
+  }
+  .nav__social a {
+    font-size: 18px;
+    padding: 0 10px;
+  }  
+  .bannertext{
+    left: 22%;
+  }
+
+  .footer {
+    margin-top: 25%;
+  }  
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    margin-top: 30%;
+  }  
+}
+
+@media screen and (max-width: 560px) {
+  .bannertext{
+    left: 18%;
+  }
+
+  .footer .text{
+    font-size: 12px;
+    text-align: center;
+  }
+  .footer-subhead {
+    font-size: 12px;
+  }
+  .footer-col-ele {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 528px) {
+  .nav__links li {
+    padding: 5px 80px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .nav__links li {
+    padding: 5px 80px;
+  }
+  .nav__social a {
+    padding: 0 5px;
+  }
+
+  .bannertext{
+    font-size: 28px;
+    left: 18%;
+  }
+  .bannerdescription{
+    top: 50%;
+  }
+
+  .footer .logo{
+    width: 50px;
+    height: 80px;
+  }
+  .footer .text{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bannertext{
+    left: 12%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav__links li {
+    padding: 5px 40px;
+  }
+  .bannertext{
+    font-size: 24px;
+  }
+
+  .footer{
+    margin-top: 40%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .footer{
+    margin-top: 55%;
+  }
+}
+
+
+
+/* Temp */
+@media screen and (max-width: 999px) {
   .whats {
     display: none;
   }
@@ -721,11 +884,6 @@ button {
     display: none;
   }
 
-  .footer {
-    display: none;
-  } */
-
-  .bannertext {
-    left: 10vw;
-  }
 }
+
+/* Temp End */
