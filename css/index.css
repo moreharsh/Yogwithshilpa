@@ -224,7 +224,7 @@ button {
 /* What our clients say Start */
 .client {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background-color: black;
   position: relative;
   margin-top: 15%;
@@ -302,7 +302,7 @@ button {
   position: absolute;
   color: #f6f6f6;
   top: 30px;
-  left: 15%;
+  left: 20%;
   font-weight: normal;
 }
 
@@ -655,9 +655,20 @@ button {
   .bannertext {
     font-size: 42px;
   }
-  
   .bannerdescription {
     font-size: 16px;
+  }
+
+  .swiper-slide p {
+    line-height: 1.7;
+  }
+
+  .auntyinfo .auntyinfoleft h3{
+    top: 85%;
+  }
+
+  .footer{
+    margin-top: 5%;
   }
 
 }
@@ -670,6 +681,10 @@ button {
     width: 300px;
     height: 200px;
   }
+
+  .swiper-slide p {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 1310px) {
@@ -677,9 +692,15 @@ button {
     font-size: 40px;
     left: 30%;
   }
-  
   .bannerdescription {
     left: 33%;
+  }
+
+  .auntyinfo .auntyinfoleft p{
+    font-size: 16px;
+  }
+  .auntyinfo .auntyinfoleft h3{
+    top: 80%;
   }
 }
 
@@ -690,9 +711,51 @@ button {
   .bannerdescription {
     font-size: 14px;
   }
+
+  .swiper-slide p {
+    width: 85%;
+  }
 }
 
 @media screen and (max-width: 1175px) {
+
+  .client .info{
+    top: 8%;
+    left: 35%;
+  }
+  .client .info::before{
+    width: 180px;
+    left: -70%;
+  }
+  .client .info::after{
+    width: 180px;
+  }
+  .swiper{
+    left: 8%;
+    top: 20%;
+  }  
+  .swiper-horizontal > .swiper-pagination-bullets {
+    bottom: -1%;
+  }
+
+  .auntyinfo .auntyinforight .smallcircle {
+    top: 23%;
+    left: 23%;
+  }  
+  .auntyinfo .auntyinforight .auntyimg {
+    width: 300px;
+    height: 300px;
+    top: 10%;
+    left: 25%;
+  }
+  .auntyinfo .auntyinforight .bigcircle {
+    width: 250px;
+    height: 250px;
+    top: 30%;
+    left: 35%;
+  }
+
+
   .gallary .grid {
     grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
   }
@@ -700,9 +763,21 @@ button {
     width: 250px;
     height: 200px;
   }
-  .auntyinfo .auntyinfoleft p {
-    font-size: 16px;
+}
+
+@media screen and (max-width: 1080px) {
+
+  .swiper-slide p {
+    width: 90%;
   }
+  
+  .auntyinfo .auntyinfoleft p{
+    font-size: 15px;
+  }
+  .auntyinfo .auntyinfoleft h3{
+    font-size: 18px;
+  }
+
 }
 
 @media screen and (max-width: 999px) {
