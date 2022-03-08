@@ -1054,9 +1054,15 @@ button {
   .client .info::after{
     width: 80px;
   }
+  .swiper-slide .userinfo {
+    left: 15%;
+  }
 
   .auntyinfo .auntyinfoleft p{
     font-size: 15px;
+  }
+  .auntyinfo .auntyinfoleft h3{
+    top: 90%;
   }
 
   .footer {
@@ -1067,6 +1073,20 @@ button {
 @media screen and (max-width: 560px) {
   .bannertext{
     left: 18%;
+  }
+
+  .client{
+    height: 90vh;
+  }
+  .swiper{
+    top: 20%;
+  }
+
+  .auntyinfo .auntyinfoleft p{
+    font-size: 14px;
+  }
+  .auntyinfo .auntyinfoleft h3{
+    font-size: 16px;
   }
 
   .footer .text{
@@ -1103,6 +1123,29 @@ button {
     top: 50%;
   }
 
+  .client{
+    height: 100vh;
+  }
+  .client .info{
+    font-size: 20px;
+    left: 25%;
+  }
+  .client .info::before{
+    width: 60px;
+    left: -40%;
+  }
+  .client .info::after{
+    width: 60px;
+  }
+  .swiper-slide .userinfo {
+    left: 20%;
+  }
+
+  .auntyinfo .auntyinfoleft{
+    width: 90%;
+    height: 70vh;
+  }
+
   .footer .logo{
     width: 50px;
     height: 80px;
@@ -1126,12 +1169,36 @@ button {
     font-size: 24px;
   }
 
+  .client .info{
+    left: 22%;
+  }
+  .client .info::before{
+    width: 40px;
+    left: -30%;
+  }
+  .client .info::after{
+    width: 40px;
+  }
+
+  .auntyinfo .auntyinfoleft{
+    height: 80vh;
+  }
+
   .footer{
     margin-top: 40%;
   }
 }
 
 @media screen and (max-width: 380px) {
+
+  .client{
+    height: 110vh;
+  }
+
+  .auntyinfo .auntyinforight{
+    margin-left: 20%;
+  }
+
   .footer{
     margin-top: 55%;
   }
