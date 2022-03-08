@@ -1183,6 +1183,10 @@ button {
   .auntyinfo .auntyinfoleft{
     height: 80vh;
   }
+  .auntyinfo .auntyinfoleft h3{
+    top: 85%;
+  }
+
 
   .footer{
     margin-top: 40%;
