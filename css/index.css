@@ -319,7 +319,7 @@ button {
 
 .swiper-horizontal > .swiper-pagination-bullets {
   bottom: -1%;
-  z-index: 1;
+  z-index: 1 !important;
 }
 
 .swiper-pagination-bullet {
@@ -766,7 +766,6 @@ button {
 }
 
 @media screen and (max-width: 1080px) {
-
   .swiper-slide p {
     width: 90%;
   }
@@ -784,12 +783,56 @@ button {
   .bannertext{
     left: 28%;
   }
-
   .bannerdescription{
     width: 40%;
     left: 30%;
   }
 
+  .client{
+    height: 120vh;
+  }
+  .client .info{
+    left: 32%;
+    font-size: 32px;
+  }
+
+  .swiper-slide .userinfo h2{
+    font-size: 16px;
+  }
+  .swiper-slide .userinfo h3{
+    font-size: 13px;
+  }
+  .swiper-slide .user img {
+    width: 40px;
+    height: 40px;
+    top: 25px;
+  }
+  .swiper-slide .userinfo {
+    top: 20px;
+  }
+
+  .auntyinfo .auntyinfoleft h3{
+    top: 85%;
+  }
+  .auntyinfo .auntyinforight .smallcircle {
+    top: 25%;
+    left: 24%;
+  }
+  
+  .auntyinfo .auntyinforight .auntyimg {
+    width: 280px;
+    height: 280px;
+    top: 10%;
+    left: 25%;
+  }
+  
+  .auntyinfo .auntyinforight .bigcircle {
+    width: 240px;
+    height: 240px;
+    top: 24%;
+    left: 33%;
+  }
+  
   .footer {
     margin-top: 20%;
   }
@@ -804,6 +847,94 @@ button {
   }
 }
 
+@media screen and (max-width: 890px) {
+  
+  .client .info::before {
+    width: 150px;
+    height: 1px;
+    left: -70%;
+    top: 50%;
+  }
+  .client .info::after {
+    width: 150px;
+    left: 120%;
+    top: 50%;
+  }
+
+  .auntyinfo .auntyinfoleft{
+    height: 60vh;
+  }
+  .auntyinfo .auntyinforight{
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .bannertext{
+    left: 25%;
+  }
+
+  .client{
+    height: 130vh;
+  }
+  .client .info::before{
+    width: 120px;
+    left: -50%;
+  }
+  .client .info::after{
+    width: 120px;
+    left: 110%;
+  }
+  
+  .auntyinfo .auntyinforight .smallcircle {
+    top: 25%;
+    left: 20%;
+  }
+  
+  .auntyinfo .auntyinforight .auntyimg {
+    width: 260px;
+    height: 260px;
+    top: 10%;
+    left: 21%;
+  }
+  
+  .auntyinfo .auntyinforight .bigcircle {
+    width: 230px;
+    height: 230px;
+    top: 24%;
+    left: 28%;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .client{
+    height: 140vh;
+  }
+  .swiper{
+    height: 75%;
+  }
+
+  .auntyinfo .auntyinfoleft p{
+    font-size: 14px;
+  }
+  .auntyinfo .auntyinforight .smallcircle {
+    top: 30%;
+    left: 10%;
+  } 
+  .auntyinfo .auntyinforight .auntyimg {
+    width: 250px;
+    height: 250px;
+    top: 22%;
+    left: 15%;
+  }
+  .auntyinfo .auntyinforight .bigcircle {
+    width: 200px;
+    height: 200px;
+    top: 35%;
+    left: 30%;
+  }
+}
+
 @media screen and (max-width: 768px) {
 
   .bannertext{
@@ -813,6 +944,33 @@ button {
   .bannerdescription{
     width: 50%;
     left: 27%;
+  }
+
+  .client{
+    height: 80vh;
+  }
+  .client .info{
+    font-size: 28px;
+  }
+  .client .info::before{
+    width: 100px;
+    left: -50%;
+  }
+  .client .info::after{
+    width: 100px;
+  }
+  .swiper{
+    top: 25%;
+    height: 70%;
+  }
+  .swiper-slide .user img {
+    width: 50px;
+    height: 50px;
+    top: 30px;
+  }
+  .swiper-slide .userinfo {
+    top: 30px;
+    left: 10%;
   }
 
   .footer {
@@ -830,6 +988,7 @@ button {
   }
 }
 
+
 @media screen and (max-width: 685px) {
   li,
   a,
@@ -844,15 +1003,62 @@ button {
     padding: 0 10px;
   }  
   .bannertext{
-    left: 22%;
+    left: 20%;
   }
+
+  .auntyinfo{
+    flex-direction: column-reverse;
+  }
+  .auntyinfo .auntyinfoleft{
+    width: 80%;
+  }
+  .auntyinfo .auntyinfoleft p{
+    font-size: 16px;
+  }
+  .auntyinfo .auntyinforight{
+    height: 50vh;
+    margin-left: 25%;
+  }
+  .auntyinfo .auntyinforight .smallcircle {
+    top: 20%;
+    left: 10%;
+  }
+  .auntyinfo .auntyinforight .auntyimg {
+    width: 250px;
+    height: 250px;
+    top: 15%;
+    left: 15%;
+  }
+  .auntyinfo .auntyinforight .bigcircle {
+    width: 200px;
+    height: 200px;
+    top: 35%;
+    left: 35%;
+  }
+
 
   .footer {
     margin-top: 25%;
   }  
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 630px) {
+  .client .info{
+    font-size: 24px;
+    left: 28%;
+  }
+  .client .info::before{
+    width: 80px;
+    left: -45%;
+  }
+  .client .info::after{
+    width: 80px;
+  }
+
+  .auntyinfo .auntyinfoleft p{
+    font-size: 15px;
+  }
+
   .footer {
     margin-top: 30%;
   }  
@@ -936,14 +1142,6 @@ button {
 /* Temp */
 @media screen and (max-width: 999px) {
   .whats {
-    display: none;
-  }
-
-  .client {
-    display: none;
-  }
-
-  .auntyinfo {
     display: none;
   }
 
