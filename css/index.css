@@ -1660,5 +1660,22 @@ button {
     height: 90vw !important;
   }
 }
+@media screen and (min-width: 700px) and (max-width: 810px) {
+  .whatsleft {
+    height: 75vw !important;
+  }
+}
+
+@media screen and (min-width: 810px) and (max-width: 900px) {
+  .whatsleft {
+    height: 60vw !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .whatsleft {
+    height: 45vw !important;
+  }
+}
 
 /* Temp End */
