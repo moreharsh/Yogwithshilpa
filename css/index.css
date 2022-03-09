@@ -674,6 +674,10 @@ button {
 }
 
 @media screen and (max-width: 1380px) {
+  .swiper-slide p {
+    font-size: 14px;
+  }
+
   .gallary .grid {
     grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
   }
@@ -682,8 +686,14 @@ button {
     height: 200px;
   }
 
-  .swiper-slide p {
-    font-size: 14px;
+  .certified .creds {
+    left: 15%;
+  }
+  .cred {
+    font-size: 18px;
+    line-height: 2.5;
+    padding: 5px 25px;
+    margin-right: 15px;
   }
 
   .footer{
@@ -715,6 +725,16 @@ button {
     width: 250px;
     height: 250px;
   }
+
+  .certified .creds {
+    left: 10%;
+  }
+  .cred {
+    line-height: 2.2;
+    padding: 5px 20px;
+    margin-right: 10px;
+  }
+
 }
 
 @media screen and (max-width: 1210px) {
@@ -732,6 +752,11 @@ button {
   .extrainfo .extrainforight p{
     font-size: 18px;
   }
+
+  .cred {
+    font-size: 16px;
+  }
+
 }
 
 @media screen and (max-width: 1195px) {
@@ -747,6 +772,10 @@ button {
   .extrainfo .extrainfoleft .bigcircle {
     top: 30%;
     left: 30%;
+  }
+
+  .certified .creds {
+    left: 10%;
   }
 
   .gallary .grid {
@@ -796,6 +825,10 @@ button {
     left: 35%;
   }
 
+  .certified .creds {
+    left: 8%;
+  }
+
   .gallary .title::before{
     width: 180px;
     left: -180%;
@@ -815,6 +848,12 @@ button {
   }
   .auntyinfo .auntyinfoleft h3{
     font-size: 18px;
+  }
+
+  .cred {
+    font-size: 14px;
+    line-height: 2.2;
+    padding: 5px 20px;
   }
   
   .gallary .grid {
@@ -856,6 +895,37 @@ button {
   }
   .swiper-slide .userinfo {
     top: 20px;
+  }
+
+  .certified{
+    height: 80vh;
+    margin-top: 2%;
+  }
+  .certified .info {
+    font-size: 32px;
+    left: 40%;
+  }
+  .certified .info::before {
+    width: 200px;
+    left: -130%;
+  }
+  .certified .info::after {
+    width: 200px;
+    left: 120%;
+  }  
+  .certified .creds{
+    width: 60%;
+    top: 30%;
+    margin-left: 18%;
+  }
+  .certified .creds br{
+    display: none;
+  }
+  .cred{
+    width: 480px;
+    height: 50px;
+    text-align: center;
+    margin-top: 5%;
   }
 
   .auntyinfo .auntyinfoleft h3{
@@ -1067,6 +1137,18 @@ button {
     top: 30px;
     left: 10%;
   }
+
+  .certified .info::before {
+    width: 160px;
+    left: -110%;
+  }
+  .certified .info::after {
+    width: 160px;
+    left: 120%;
+  }  
+  .certified .creds{
+    margin-left: 12%;
+  }
   
   .gallary .title{
     left: 40%;
@@ -1132,6 +1214,17 @@ button {
     height: 200px;
     top: 35%;
     left: 35%;
+  }
+
+  .certified .info {
+    font-size: 28px;
+    left: 35%;
+  }
+  .certified .info::before {
+    left: -120%;
+  }
+  .certified .creds{
+    margin-left: 5%;
   }
 
   .gallary .title::before{
@@ -1205,6 +1298,22 @@ button {
     right: -50px;
   }
 
+  .certified .info::before {
+    width: 120px;
+    left: -100%;
+  }
+  .certified .info::after {
+    width: 120px;
+  }
+  .cred{
+    width: 400px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 2;
+    padding: 5px 15px;
+    margin-right: 5px;    
+  }
+
   .gallary .grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
   }
@@ -1241,6 +1350,13 @@ button {
 
   .extrainfo .extrainfoleft{
     margin-left: 20%;
+  }
+
+  .certified .info{
+    font-size: 24px;
+  }
+  .certified .creds{
+    margin-left: 3%;
   }
 
   .gallary .title{
@@ -1309,6 +1425,20 @@ button {
     height: 65vh;
   }
 
+  .certified{
+    height: 70vh;
+  }
+  .certified .info::before{
+    width: 80px;
+    left: -80%;
+  }
+  .certified .info::after{
+    width: 80px;
+  }
+  .certified .creds{
+    margin-left: 0;
+  }
+
   .gallary .title::before{
     width: 150px;
   }
@@ -1344,6 +1474,14 @@ button {
 
   .extrainfo .extrainfoleft{
     margin-left: 15%;
+  }
+
+  .certified .creds{
+    margin-left: 5%;
+  }
+  .cred{
+    width: 300px;
+    height: 60px;
   }
 
   .gallary{
@@ -1382,6 +1520,20 @@ button {
 
   .auntyinfo .auntyinfoleft h3{
     top: 85%;
+  }
+
+  .certified .info{
+    font-size: 22px;
+  }
+  .certified .info::before{
+    width: 60px;
+    left: -60%;
+  }
+  .certified .info::after{
+    width: 60px;
+  }
+  .certified .creds{
+    margin-left: 2%;
   }
 
   .gallary .title{
@@ -1440,11 +1592,6 @@ button {
   .whats {
     display: none;
   }
-
-  .certified {
-    display: none;
-  }
-
 }
 
 /* Temp End */
