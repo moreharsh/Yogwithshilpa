@@ -663,14 +663,13 @@ button {
     line-height: 1.7;
   }
 
-  .auntyinfo .auntyinfoleft h3{
+  .auntyinfo .auntyinfoleft h3 {
     top: 85%;
   }
 
-  .footer{
+  .footer {
     margin-top: 5%;
   }
-
 }
 
 @media screen and (max-width: 1380px) {
@@ -696,7 +695,7 @@ button {
     margin-right: 15px;
   }
 
-  .footer{
+  .footer {
     margin-top: -5%;
   }
 }
@@ -710,13 +709,13 @@ button {
     left: 33%;
   }
 
-  .auntyinfo .auntyinfoleft p{
+  .auntyinfo .auntyinfoleft p {
     font-size: 16px;
   }
-  .auntyinfo .auntyinfoleft h3{
+  .auntyinfo .auntyinfoleft h3 {
     top: 80%;
   }
-  
+
   .extrainfo .extrainfoleft .extraimg {
     width: 300px;
     height: 300px;
@@ -734,7 +733,6 @@ button {
     padding: 5px 20px;
     margin-right: 10px;
   }
-
 }
 
 @media screen and (max-width: 1210px) {
@@ -749,14 +747,13 @@ button {
     width: 85%;
   }
 
-  .extrainfo .extrainforight p{
+  .extrainfo .extrainforight p {
     font-size: 18px;
   }
 
   .cred {
     font-size: 16px;
   }
-
 }
 
 @media screen and (max-width: 1195px) {
@@ -764,7 +761,7 @@ button {
     top: 25%;
     left: 20%;
   }
-  
+
   .extrainfo .extrainfoleft .extraimg {
     top: 10%;
     left: 21%;
@@ -788,22 +785,21 @@ button {
 }
 
 @media screen and (max-width: 1175px) {
-
-  .client .info{
+  .client .info {
     top: 8%;
     left: 35%;
   }
-  .client .info::before{
+  .client .info::before {
     width: 180px;
     left: -70%;
   }
-  .client .info::after{
+  .client .info::after {
     width: 180px;
   }
-  .swiper{
+  .swiper {
     left: 8%;
     top: 20%;
-  }  
+  }
   .swiper-horizontal > .swiper-pagination-bullets {
     bottom: -1%;
   }
@@ -811,7 +807,7 @@ button {
   .auntyinfo .auntyinforight .smallcircle {
     top: 23%;
     left: 23%;
-  }  
+  }
   .auntyinfo .auntyinforight .auntyimg {
     width: 300px;
     height: 300px;
@@ -829,11 +825,11 @@ button {
     left: 8%;
   }
 
-  .gallary .title::before{
+  .gallary .title::before {
     width: 180px;
     left: -180%;
   }
-  .gallary .title::after{
+  .gallary .title::after {
     width: 180px;
   }
 }
@@ -842,11 +838,11 @@ button {
   .swiper-slide p {
     width: 90%;
   }
-  
-  .auntyinfo .auntyinfoleft p{
+
+  .auntyinfo .auntyinfoleft p {
     font-size: 15px;
   }
-  .auntyinfo .auntyinfoleft h3{
+  .auntyinfo .auntyinfoleft h3 {
     font-size: 18px;
   }
 
@@ -855,7 +851,7 @@ button {
     line-height: 2.2;
     padding: 5px 20px;
   }
-  
+
   .gallary .grid {
     grid-template-columns: repeat(auto-fill, minmax(225px, 225px));
   }
@@ -866,26 +862,26 @@ button {
 }
 
 @media screen and (max-width: 999px) {
-  .bannertext{
+  .bannertext {
     left: 28%;
   }
-  .bannerdescription{
+  .bannerdescription {
     width: 40%;
     left: 30%;
   }
 
-  .client{
+  .client {
     height: 120vh;
   }
-  .client .info{
+  .client .info {
     left: 32%;
     font-size: 32px;
   }
 
-  .swiper-slide .userinfo h2{
+  .swiper-slide .userinfo h2 {
     font-size: 16px;
   }
-  .swiper-slide .userinfo h3{
+  .swiper-slide .userinfo h3 {
     font-size: 13px;
   }
   .swiper-slide .user img {
@@ -897,7 +893,7 @@ button {
     top: 20px;
   }
 
-  .certified{
+  .certified {
     height: 80vh;
     margin-top: 2%;
   }
@@ -912,23 +908,23 @@ button {
   .certified .info::after {
     width: 200px;
     left: 120%;
-  }  
-  .certified .creds{
+  }
+  .certified .creds {
     width: 60%;
     top: 30%;
     margin-left: 18%;
   }
-  .certified .creds br{
+  .certified .creds br {
     display: none;
   }
-  .cred{
+  .cred {
     width: 480px;
     height: 50px;
     text-align: center;
     margin-top: 5%;
   }
 
-  .auntyinfo .auntyinfoleft h3{
+  .auntyinfo .auntyinfoleft h3 {
     top: 85%;
   }
   .auntyinfo .auntyinforight .smallcircle {
@@ -964,14 +960,14 @@ button {
     top: 25%;
     left: 30%;
   }
-  .extrainfo .extrainforight p{
+  .extrainfo .extrainforight p {
     font-size: 16px;
   }
 
-  .footer{
+  .footer {
     margin-top: -5%;
   }
-  .footer .text{
+  .footer .text {
     font-size: 16px;
   }
   .footer-subhead {
@@ -983,13 +979,12 @@ button {
 }
 
 @media screen and (max-width: 911px) {
-  .footer{
+  .footer {
     margin-top: 15%;
   }
 }
 
 @media screen and (max-width: 890px) {
-  
   .client .info::before {
     width: 150px;
     height: 1px;
@@ -1002,51 +997,51 @@ button {
     top: 50%;
   }
 
-  .auntyinfo .auntyinfoleft{
+  .auntyinfo .auntyinfoleft {
     height: 60vh;
   }
-  .auntyinfo .auntyinforight{
+  .auntyinfo .auntyinforight {
     height: 60vh;
   }
 
-  .extrainfo .extrainforight{
+  .extrainfo .extrainforight {
     height: 35vh;
   }
 
   .footer {
     margin-top: 20%;
-  }  
+  }
 }
 
 @media screen and (max-width: 860px) {
-  .bannertext{
+  .bannertext {
     left: 25%;
   }
 
-  .client{
+  .client {
     height: 130vh;
   }
-  .client .info::before{
+  .client .info::before {
     width: 120px;
     left: -50%;
   }
-  .client .info::after{
+  .client .info::after {
     width: 120px;
     left: 110%;
   }
-  
+
   .auntyinfo .auntyinforight .smallcircle {
     top: 25%;
     left: 20%;
   }
-  
+
   .auntyinfo .auntyinforight .auntyimg {
     width: 260px;
     height: 260px;
     top: 10%;
     left: 21%;
   }
-  
+
   .auntyinfo .auntyinforight .bigcircle {
     width: 230px;
     height: 230px;
@@ -1056,20 +1051,20 @@ button {
 }
 
 @media screen and (max-width: 790px) {
-  .client{
+  .client {
     height: 140vh;
   }
-  .swiper{
+  .swiper {
     height: 75%;
   }
 
-  .auntyinfo .auntyinfoleft p{
+  .auntyinfo .auntyinfoleft p {
     font-size: 14px;
   }
   .auntyinfo .auntyinforight .smallcircle {
     top: 30%;
     left: 10%;
-  } 
+  }
   .auntyinfo .auntyinforight .auntyimg {
     width: 250px;
     height: 250px;
@@ -1102,29 +1097,29 @@ button {
 }
 
 @media screen and (max-width: 768px) {
-  .bannertext{
+  .bannertext {
     font-size: 32px;
     left: 25%;
   }
-  .bannerdescription{
+  .bannerdescription {
     width: 50%;
     left: 27%;
   }
 
-  .client{
+  .client {
     height: 80vh;
   }
-  .client .info{
+  .client .info {
     font-size: 28px;
   }
-  .client .info::before{
+  .client .info::before {
     width: 100px;
     left: -50%;
   }
-  .client .info::after{
+  .client .info::after {
     width: 100px;
   }
-  .swiper{
+  .swiper {
     top: 25%;
     height: 70%;
   }
@@ -1145,19 +1140,19 @@ button {
   .certified .info::after {
     width: 160px;
     left: 120%;
-  }  
-  .certified .creds{
+  }
+  .certified .creds {
     margin-left: 12%;
   }
-  
-  .gallary .title{
+
+  .gallary .title {
     left: 40%;
   }
 
   .footer {
     margin-top: 22%;
   }
-  .footer .text{
+  .footer .text {
     font-size: 14px;
   }
   .footer-subhead {
@@ -1181,21 +1176,21 @@ button {
   .nav__social a {
     font-size: 18px;
     padding: 0 10px;
-  }  
-  .bannertext{
+  }
+  .bannertext {
     left: 20%;
   }
 
-  .auntyinfo{
+  .auntyinfo {
     flex-direction: column-reverse;
   }
-  .auntyinfo .auntyinfoleft{
+  .auntyinfo .auntyinfoleft {
     width: 80%;
   }
-  .auntyinfo .auntyinfoleft p{
+  .auntyinfo .auntyinfoleft p {
     font-size: 16px;
   }
-  .auntyinfo .auntyinforight{
+  .auntyinfo .auntyinforight {
     height: 50vh;
     margin-left: 25%;
   }
@@ -1223,51 +1218,51 @@ button {
   .certified .info::before {
     left: -120%;
   }
-  .certified .creds{
+  .certified .creds {
     margin-left: 5%;
   }
 
-  .gallary .title::before{
+  .gallary .title::before {
     width: 150px;
     left: -140%;
   }
-  .gallary .title::after{
+  .gallary .title::after {
     width: 150px;
     left: 120%;
   }
 
   .footer {
     margin-top: 25%;
-  }  
+  }
 }
 
 @media screen and (max-width: 630px) {
-  .client .info{
+  .client .info {
     font-size: 24px;
     left: 28%;
   }
-  .client .info::before{
+  .client .info::before {
     width: 80px;
     left: -45%;
   }
-  .client .info::after{
+  .client .info::after {
     width: 80px;
   }
   .swiper-slide .userinfo {
     left: 15%;
   }
 
-  .auntyinfo .auntyinfoleft p{
+  .auntyinfo .auntyinfoleft p {
     font-size: 15px;
   }
-  .auntyinfo .auntyinfoleft h3{
+  .auntyinfo .auntyinfoleft h3 {
     top: 90%;
   }
 
-  .extrainfo{
+  .extrainfo {
     flex-direction: column;
   }
-  .extrainfo .extrainfoleft{
+  .extrainfo .extrainfoleft {
     margin-left: 25%;
   }
   .extrainfo .extrainfoleft .smallcircle {
@@ -1286,11 +1281,11 @@ button {
     top: 35%;
     left: 35%;
   }
-  .extrainfo .extrainforight{
+  .extrainfo .extrainforight {
     width: 80%;
     margin-left: 20%;
   }
-  .extrainfo .extrainforight p{
+  .extrainfo .extrainforight p {
     font-size: 15px;
     top: 15%;
   }
@@ -1305,13 +1300,13 @@ button {
   .certified .info::after {
     width: 120px;
   }
-  .cred{
+  .cred {
     width: 400px;
     height: 40px;
     font-size: 12px;
     line-height: 2;
     padding: 5px 15px;
-    margin-right: 5px;    
+    margin-right: 5px;
   }
 
   .gallary .grid {
@@ -1324,46 +1319,46 @@ button {
 }
 
 @media screen and (max-width: 560px) {
-  .bannertext{
+  .bannertext {
     left: 18%;
   }
   .nav__links li {
     padding: 5px 80px;
   }
 
-  .client{
+  .client {
     height: 90vh;
   }
-  .swiper{
+  .swiper {
     top: 20%;
   }
 
-  .auntyinfo .auntyinfoleft p{
+  .auntyinfo .auntyinfoleft p {
     font-size: 14px;
   }
-  .auntyinfo .auntyinfoleft h3{
+  .auntyinfo .auntyinfoleft h3 {
     font-size: 16px;
   }
-  .auntyinfo .auntyinforight{
+  .auntyinfo .auntyinforight {
     margin-left: 20%;
   }
 
-  .extrainfo .extrainfoleft{
+  .extrainfo .extrainfoleft {
     margin-left: 20%;
   }
 
-  .certified .info{
+  .certified .info {
     font-size: 24px;
   }
-  .certified .creds{
+  .certified .creds {
     margin-left: 3%;
   }
 
-  .gallary .title{
+  .gallary .title {
     font-size: 32px;
     left: 35%;
   }
-  .gallary .title::before{
+  .gallary .title::before {
     left: -150%;
   }
   .gallary .grid {
@@ -1374,7 +1369,7 @@ button {
     height: 150px;
   }
 
-  .footer .text{
+  .footer .text {
     font-size: 12px;
     text-align: center;
   }
@@ -1394,52 +1389,52 @@ button {
     padding: 0 5px;
   }
 
-  .bannertext{
+  .bannertext {
     font-size: 28px;
     left: 18%;
   }
-  .bannerdescription{
+  .bannerdescription {
     top: 50%;
   }
 
-  .client{
+  .client {
     height: 100vh;
   }
-  .client .info{
+  .client .info {
     font-size: 20px;
     left: 25%;
   }
-  .client .info::before{
+  .client .info::before {
     width: 60px;
     left: -40%;
   }
-  .client .info::after{
+  .client .info::after {
     width: 60px;
   }
   .swiper-slide .userinfo {
     left: 20%;
   }
 
-  .auntyinfo .auntyinfoleft{
+  .auntyinfo .auntyinfoleft {
     width: 90%;
     height: 65vh;
   }
 
-  .certified{
+  .certified {
     height: 70vh;
   }
-  .certified .info::before{
+  .certified .info::before {
     width: 80px;
     left: -80%;
   }
-  .certified .info::after{
+  .certified .info::after {
     width: 80px;
   }
-  .certified .creds{
+  .certified .creds {
     margin-left: 0;
   }
 
-  .gallary .title::before{
+  .gallary .title::before {
     width: 150px;
   }
 
@@ -1451,50 +1446,50 @@ button {
     height: 120px;
   }
 
-  .footer{
+  .footer {
     margin-top: 0;
   }
-  .footer .logo{
+  .footer .logo {
     width: 50px;
     height: 80px;
   }
-  .footer .text{
+  .footer .text {
     font-size: 10px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .bannertext{
+  .bannertext {
     left: 12%;
   }
 
-  .auntyinfo .auntyinforight{
+  .auntyinfo .auntyinforight {
     margin-left: 15%;
   }
 
-  .extrainfo .extrainfoleft{
+  .extrainfo .extrainfoleft {
     margin-left: 15%;
   }
 
-  .certified .creds{
+  .certified .creds {
     margin-left: 5%;
   }
-  .cred{
+  .cred {
     width: 300px;
     height: 60px;
   }
 
-  .gallary{
+  .gallary {
     height: 70vh;
   }
-  .gallary .title{
+  .gallary .title {
     font-size: 28px;
   }
-  .gallary .title::before{
+  .gallary .title::before {
     width: 120px;
     left: -140%;
   }
-  .gallary .title::after{
+  .gallary .title::after {
     width: 120px;
   }
 }
@@ -1503,47 +1498,47 @@ button {
   .nav__links li {
     padding: 5px 40px;
   }
-  .bannertext{
+  .bannertext {
     font-size: 24px;
   }
 
-  .client .info{
+  .client .info {
     left: 22%;
   }
-  .client .info::before{
+  .client .info::before {
     width: 40px;
     left: -30%;
   }
-  .client .info::after{
+  .client .info::after {
     width: 40px;
   }
 
-  .auntyinfo .auntyinfoleft h3{
+  .auntyinfo .auntyinfoleft h3 {
     top: 85%;
   }
 
-  .certified .info{
+  .certified .info {
     font-size: 22px;
   }
-  .certified .info::before{
+  .certified .info::before {
     width: 60px;
     left: -60%;
   }
-  .certified .info::after{
+  .certified .info::after {
     width: 60px;
   }
-  .certified .creds{
+  .certified .creds {
     margin-left: 2%;
   }
 
-  .gallary .title{
+  .gallary .title {
     font-size: 24px;
     left: 40%;
   }
-  .gallary .title::before{
+  .gallary .title::before {
     width: 100px;
   }
-  .gallary .title::after{
+  .gallary .title::after {
     width: 100px;
   }
   .gallary .grid {
@@ -1553,44 +1548,116 @@ button {
     width: 120px;
     height: 100px;
   }
-
 }
 
 @media screen and (max-width: 380px) {
-
-  .client{
+  .client {
     height: 110vh;
   }
 
-  .auntyinfo .auntyinforight{
+  .auntyinfo .auntyinforight {
     margin-left: 10%;
   }
 
-  .extrainfo .extrainfoleft{
+  .extrainfo .extrainfoleft {
     margin-left: 10%;
   }
 
-  .gallary{
+  .gallary {
     height: 50vh;
   }
-  .gallary .title::before{
+  .gallary .title::before {
     width: 80px;
   }
-  .gallary .title::after{
+  .gallary .title::after {
     width: 80px;
   }
 
-  .footer{
+  .footer {
     margin-top: 55%;
   }
 }
 
-
-
 /* Temp */
 @media screen and (max-width: 999px) {
-  .whats {
+  /* .whats {
     display: none;
+  } */
+  .image-2,
+  .image-3,
+  .image-4,
+  .image-5 {
+    display: none;
+  }
+  .whatsleft {
+    width: 100% !important;
+    margin-left: -20% !important;
+  }
+  .whatsleft .title {
+    margin-left: -15%;
+  }
+  .whatsleft {
+    height: 250vw !important;
+  }
+
+  .whats .whatsleft .text {
+    top: 5%;
+  }
+
+  .whats .whatsleft .connect {
+    top: 8%;
+  }
+
+  .whatsleft .text p {
+    font-size: 15px !important;
+    top: 5%;
+  }
+  .whatsleft .connect ul li {
+    font-size: 15px !important;
+  }
+  .whats .whatsleft .title h2::after {
+    bottom: -20%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .whatsleft .title {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .whatsleft {
+    height: 300vw !important;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 460px) {
+  .whatsleft {
+    height: 180vw !important;
+  }
+}
+
+@media screen and (min-width: 460px) and (max-width: 700px) {
+  .whatsleft {
+    height: 150vw !important;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 550px) {
+  .whatsleft {
+    height: 130vw !important;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+  .whatsleft {
+    height: 110vw !important;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 700px) {
+  .whatsleft {
+    height: 90vw !important;
   }
 }
 
