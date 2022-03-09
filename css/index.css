@@ -706,6 +706,15 @@ button {
   .auntyinfo .auntyinfoleft h3{
     top: 80%;
   }
+  
+  .extrainfo .extrainfoleft .extraimg {
+    width: 300px;
+    height: 300px;
+  }
+  .extrainfo .extrainfoleft .bigcircle {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 1210px) {
@@ -719,9 +728,27 @@ button {
   .swiper-slide p {
     width: 85%;
   }
+
+  .extrainfo .extrainforight p{
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 1195px) {
+  .extrainfo .extrainfoleft .smallcircle {
+    top: 25%;
+    left: 20%;
+  }
+  
+  .extrainfo .extrainfoleft .extraimg {
+    top: 10%;
+    left: 21%;
+  }
+  .extrainfo .extrainfoleft .bigcircle {
+    top: 30%;
+    left: 30%;
+  }
+
   .gallary .grid {
     grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
   }
@@ -838,19 +865,37 @@ button {
     top: 25%;
     left: 24%;
   }
-  
   .auntyinfo .auntyinforight .auntyimg {
     width: 280px;
     height: 280px;
     top: 10%;
     left: 25%;
   }
-  
   .auntyinfo .auntyinforight .bigcircle {
     width: 240px;
     height: 240px;
     top: 24%;
     left: 33%;
+  }
+
+  .extrainfo .extrainfoleft .smallcircle {
+    top: 25%;
+    left: 15%;
+  }
+  .extrainfo .extrainfoleft .extraimg {
+    width: 275px;
+    height: 275px;
+    top: 10%;
+    left: 16%;
+  }
+  .extrainfo .extrainfoleft .bigcircle {
+    width: 225px;
+    height: 225px;
+    top: 25%;
+    left: 30%;
+  }
+  .extrainfo .extrainforight p{
+    font-size: 16px;
   }
 
   .footer{
@@ -892,6 +937,10 @@ button {
   }
   .auntyinfo .auntyinforight{
     height: 60vh;
+  }
+
+  .extrainfo .extrainforight{
+    height: 35vh;
   }
 
   .footer {
@@ -963,10 +1012,26 @@ button {
     top: 35%;
     left: 30%;
   }
+
+  .extrainfo .extrainfoleft .smallcircle {
+    top: 25%;
+    left: 10%;
+  }
+  .extrainfo .extrainfoleft .extraimg {
+    width: 225px;
+    height: 225px;
+    top: 15%;
+    left: 15%;
+  }
+  .extrainfo .extrainfoleft .bigcircle {
+    width: 175px;
+    height: 175px;
+    top: 30%;
+    left: 30%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-
   .bannertext{
     font-size: 32px;
     left: 25%;
@@ -1106,6 +1171,40 @@ button {
     top: 90%;
   }
 
+  .extrainfo{
+    flex-direction: column;
+  }
+  .extrainfo .extrainfoleft{
+    margin-left: 25%;
+  }
+  .extrainfo .extrainfoleft .smallcircle {
+    top: 20%;
+    left: 10%;
+  }
+  .extrainfo .extrainfoleft .extraimg {
+    width: 250px;
+    height: 250px;
+    top: 15%;
+    left: 15%;
+  }
+  .extrainfo .extrainfoleft .bigcircle {
+    width: 200px;
+    height: 200px;
+    top: 35%;
+    left: 35%;
+  }
+  .extrainfo .extrainforight{
+    width: 80%;
+    margin-left: 20%;
+  }
+  .extrainfo .extrainforight p{
+    font-size: 15px;
+    top: 15%;
+  }
+  .extrainfo .extrainforight p::after {
+    right: -50px;
+  }
+
   .gallary .grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
   }
@@ -1135,6 +1234,13 @@ button {
   }
   .auntyinfo .auntyinfoleft h3{
     font-size: 16px;
+  }
+  .auntyinfo .auntyinforight{
+    margin-left: 20%;
+  }
+
+  .extrainfo .extrainfoleft{
+    margin-left: 20%;
   }
 
   .gallary .title{
@@ -1232,6 +1338,14 @@ button {
     left: 12%;
   }
 
+  .auntyinfo .auntyinforight{
+    margin-left: 15%;
+  }
+
+  .extrainfo .extrainfoleft{
+    margin-left: 15%;
+  }
+
   .gallary{
     height: 70vh;
   }
@@ -1297,7 +1411,11 @@ button {
   }
 
   .auntyinfo .auntyinforight{
-    margin-left: 20%;
+    margin-left: 10%;
+  }
+
+  .extrainfo .extrainfoleft{
+    margin-left: 10%;
   }
 
   .gallary{
@@ -1324,10 +1442,6 @@ button {
   }
 
   .certified {
-    display: none;
-  }
-
-  .extrainfo {
     display: none;
   }
 
