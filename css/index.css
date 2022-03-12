@@ -2115,4 +2115,20 @@ button {
   }
 }
 
+@media screen and (min-width: 1050px) {
+  .image-2 {
+    height: 24vw !important;
+    width: 24vw !important;
+  }
+  .image-3,
+  .image-5 {
+    height: 14vw !important;
+    width: 14vw !important;
+  }
+  .image-4 {
+    height: 11vw !important;
+    width: 11vw !important;
+  }
+}
+
 /* Temp End */
