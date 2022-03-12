@@ -1843,7 +1843,7 @@ button {
 
 @media screen and (min-width: 520px) and (max-width: 550px) {
   .whatsleft {
-    height: 130vw !important;
+    height: 200vw !important;
   }
   .image-2,
   .image-3,
@@ -1859,20 +1859,20 @@ button {
     left: 80% !important;
   }
   .image-3 {
-    height: 100px !important;
-    width: 100px !important;
+    height: 110px !important;
+    width: 110px !important;
     top: 90% !important;
     left: 160% !important;
   }
   .image-4 {
-    height: 60px !important;
-    width: 60px !important;
+    height: 70px !important;
+    width: 70px !important;
     top: 94% !important;
     left: 120% !important;
   }
   .image-5 {
-    height: 100px !important;
-    width: 100px !important;
+    height: 110px !important;
+    width: 110px !important;
     top: 90% !important;
     left: 45% !important;
   }
@@ -1880,23 +1880,147 @@ button {
 
 @media screen and (min-width: 550px) and (max-width: 650px) {
   .whatsleft {
-    height: 110vw !important;
+    height: 200vw !important;
+  }
+  .image-2,
+  .image-3,
+  .image-4,
+  .image-5 {
+    top: 130vw !important;
+    left: 40% !important;
+    position: relative;
+  }
+  .image-2 {
+    height: 40vw !important;
+    width: 40vw !important;
+    left: 80% !important;
+  }
+  .image-3 {
+    height: 30vw !important;
+    width: 30vw !important;
+    top: 160vw !important;
+    left: 160% !important;
+  }
+  .image-4 {
+    height: 15vw !important;
+    width: 15vw !important;
+    top: 170vw !important;
+    left: 120% !important;
+  }
+  .image-5 {
+    height: 30vw !important;
+    width: 30vw !important;
+    top: 160vw !important;
+    left: 30% !important;
   }
 }
 @media screen and (min-width: 650px) and (max-width: 700px) {
   .whatsleft {
-    height: 90vw !important;
+    height: 160vw !important;
+  }
+  .image-2,
+  .image-3,
+  .image-4,
+  .image-5 {
+    top: 100vw !important;
+    left: 40% !important;
+    position: relative;
+  }
+  .image-2 {
+    height: 40vw !important;
+    width: 40vw !important;
+    left: 80% !important;
+  }
+  .image-3 {
+    height: 30vw !important;
+    width: 30vw !important;
+    top: 129vw !important;
+    left: 160% !important;
+  }
+  .image-4 {
+    height: 15vw !important;
+    width: 15vw !important;
+    top: 150vw !important;
+    left: 120% !important;
+  }
+  .image-5 {
+    height: 30vw !important;
+    width: 30vw !important;
+    top: 129vw !important;
+    left: 30% !important;
   }
 }
 @media screen and (min-width: 700px) and (max-width: 810px) {
   .whatsleft {
-    height: 75vw !important;
+    height: 150vw !important;
+  }
+  .image-2,
+  .image-3,
+  .image-4,
+  .image-5 {
+    top: 90vw !important;
+    left: 40% !important;
+    position: relative;
+  }
+  .image-2 {
+    height: 40vw !important;
+    width: 40vw !important;
+    left: 80% !important;
+  }
+  .image-3 {
+    height: 30vw !important;
+    width: 30vw !important;
+    top: 120vw !important;
+    left: 160% !important;
+  }
+  .image-4 {
+    height: 15vw !important;
+    width: 15vw !important;
+    top: 130vw !important;
+    left: 120% !important;
+  }
+  .image-5 {
+    height: 30vw !important;
+    width: 30vw !important;
+    top: 120vw !important;
+    left: 30% !important;
   }
 }
 
 @media screen and (min-width: 810px) and (max-width: 900px) {
   .whatsleft {
-    height: 60vw !important;
+    height: 140vw !important;
+  }
+  .image-2,
+  .image-3,
+  .image-4,
+  .image-5 {
+    top: 80vw !important;
+    left: 40% !important;
+    position: relative;
+  }
+  .image-2 {
+    height: 40vw !important;
+    width: 40vw !important;
+    left: 80% !important;
+  }
+  .image-3 {
+    height: 30vw !important;
+    width: 30vw !important;
+    top: 110vw !important;
+    left: 160% !important;
+  }
+  .image-4 {
+    height: 15vw !important;
+    width: 15vw !important;
+    top: 120vw !important;
+    left: 120% !important;
+  }
+  .image-5 {
+    height: 30vw !important;
+    width: 30vw !important;
+    top: 110vw !important;
+    left: 30% !important;
   }
 }
 
