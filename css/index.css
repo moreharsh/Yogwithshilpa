@@ -901,6 +901,11 @@ button {
     font-size: 32px;
     left: 40%;
   }
+
+  .whats .whatsleft .title h2 {
+    font-size: 32px !important;
+  }
+
   .certified .info::before {
     width: 200px;
     left: -130%;
@@ -1215,6 +1220,11 @@ button {
     font-size: 28px;
     left: 35%;
   }
+
+  .whats .whatsleft .title h2 {
+    font-size: 28px;
+  }
+
   .certified .info::before {
     left: -120%;
   }
@@ -1350,6 +1360,11 @@ button {
   .certified .info {
     font-size: 24px;
   }
+
+  .whats .whatsleft .title h2 {
+    font-size: 24px;
+  }
+
   .certified .creds {
     margin-left: 3%;
   }
@@ -1518,6 +1533,9 @@ button {
   }
 
   .certified .info {
+    font-size: 22px;
+  }
+  .whats .whatsleft .title h2 {
     font-size: 22px;
   }
   .certified .info::before {
