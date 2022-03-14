@@ -903,7 +903,7 @@ button {
   }
 
   .whats .whatsleft .title h2 {
-    font-size: 32px !important;
+    font-size: 32px;
   }
 
   .certified .info::before {
